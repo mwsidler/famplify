@@ -1,0 +1,69 @@
+/*****************************************************************************
+ * CONTENT STYLES.
+******************************************************************************/
+
+
+/*****************************************************************************
+ * MOBILE - BTWEEN 0px - 767px.
+******************************************************************************/
+#home-cta {background-color: #cecbc3; 
+  .row {
+    &.top {border-bottom: 1px solid #b9b7b3;}
+    &.bottom {border-top: 1px solid #e2e2da;}
+  }
+  .cta {margin: 20px 0;
+    h5 {font-size: $h4-font-size; margin: 0 0 15px; text-align: center; text-transform: uppercase; color: #8b8a87; text-shadow: 0px 1px 0px #fff; filter: dropshadow(color=#fff, offx=0, offy=1); }
+  }
+  .cta-interact { }
+  img {width: 80px; height: 80px; background: $white; border-radius: $global-rounded; padding: 15px; border: 5px solid #efefe4; float: left; margin-right: 15px;}
+  p {font-size: $p-font-size; line-height: .9 * $base-line-height; margin-bottom: 15px; padding-top: 5px;}
+  .button {display: block; width: 100%; margin: 0 auto;}
+  .sign-up {text-align: center; padding-top: 30px; padding-bottom: 30px; margin-bottom: 30px;
+    h3 {text-transform: uppercase; color: #8b8a87; text-shadow: 0px 1px 0px #fff; filter: dropshadow(color=#fff, offx=0, offy=1);}
+    p {font-size: $p-font-size; color: $dark-color; width: 90%; margin: 0 auto 15px; line-height: .9 * $base-line-height;}
+  }
+}
+
+/*****************************************************************************
+ * TABLET - 768px wide and up. This is where the grid changes.
+******************************************************************************/
+@media #{$tablet} { 
+  #home-cta {background: url('../images/advertise-bg.jpg') repeat-x 0 0 #cecbc3;  min-height: 288px;
+    .cta-bg {background: url('../images/advertise-bg.jpg') repeat-x 0 0 #cecbc3;}
+    .cta {background-image: url('../images/cta-bg.png'); background-repeat: no-repeat; background-color: transparent; background-size: 236px 473px; position: relative; z-index: 1; width: 236px; height: 236px; margin: 36px auto;
+      h5 {font-size: $h6-font-size; padding: 45px 0 0px; margin-bottom: 0;color: $dark-color; text-transform: capitalize;}
+    }
+    .cta-interact {margin: 0 auto; width: 75%; text-align: center; position: relative; }
+    img {width: 40px; height: 40px; padding: 0; border-radius: 0; background: transparent; border: none; float: none; margin: 0;}
+    p {padding: 0; margin-bottom: 0; font-size: .7 * $p-font-size; line-height: $base-line-height; height: 57px;}
+    .button {display: inline-block; width: auto;}
+    .sign-up {
+       p {width: 60%; margin-bottom: 0;}
+    }
+  }
+}
+
+/*****************************************************************************
+ * DESKTOP - 1280px wide and up.
+******************************************************************************/
+@media #{$desktop} {
+  #home-cta {
+    .cta {background-size: 289px 576px; background-position: 0 0; width: 289px; height: 288px; z-index: 9;
+      h5 {padding: 60px 0 15px; margin-bottom: 0;}
+    }
+    .cta-interact {height: 145px; width: 70%; }
+    img {width: 95px; height: 95px; margin: 0 auto;}
+    p {font-size: .8 * $p-font-size; cursor: default;}
+    .button {margin-top: 10px;}
+    .sign-up {
+      p {font-size: 1.2 * $p-font-size; width: 60%;}
+    }
+  }
+}
+
+/*****************************************************************************
+ * LARGE DESKTOP - 1440px wide and up. 
+******************************************************************************/
+@media #{$large-desktop} {
+
+}

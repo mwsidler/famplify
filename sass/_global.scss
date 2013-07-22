@@ -1,0 +1,66 @@
+/*****************************************************************************
+ * GLOBAL SITE STYLES.
+******************************************************************************/
+
+body {font-family: $body-font-family;
+  h1, h2, h3, h4, h5, h6 {font-weight: lighter; font-family: "HelveticaNeue-CondensedBold", "Helvetica", Helvetica, Arial, sans-serif; }
+  h1{}
+  h2{}
+  h3{}
+  h4{}
+  h5{}
+  h6{}
+}
+
+body{
+  margin:0;
+  padding:0;
+  background: url('../images/body-tile.gif') repeat 50% 0 fixed;
+}
+
+/*****************************************************************************
+ * GLOBAL CLASSES.
+******************************************************************************/
+.white-bg {background: $white;}
+.button {text-transform: uppercase; line-height: 16px; padding: 5px 15px;}
+//.hidden {display: none;}
+
+/*****************************************************************************
+ * MOBILE - BTWEEN 0px - 767px.
+******************************************************************************/
+.display-meter {background: green; display: none;}
+
+/*****************************************************************************
+ * TABLET - 768px wide and up. This is where the grid changes.
+******************************************************************************/
+@media #{$tablet} { 
+  .display-meter {background: orange;}
+}
+
+/*****************************************************************************
+ * DESKTOP - 1280px wide and up.
+******************************************************************************/
+@media #{$desktop} {
+  .display-meter {background: red;}
+}
+/*****************************************************************************
+ * LARGE DESKTOP - 1440px wide and up. 
+******************************************************************************/
+@media #{$large-desktop} {
+  //.display-meter {background: green;} 
+}
+
+/*****************************************************************************
+ * ORBIT OVERRIDE 
+******************************************************************************/
+.orbit-container {background-color: transparent;
+  .orbit-next,
+  .orbit-prev {background-color: transparent; width: 23px; height: 40px; background-position: 0 -40px;
+    &:hover {background-position: 0 0;}
+    span {background: none; border: none;}
+  }
+  .orbit-next {background-image: url('../images/arrow-right.png');}
+  .orbit-prev {background-image: url('../images/arrow-left.png');}
+}
+.orbit-slide-number,
+.orbit-timer {display: none;}

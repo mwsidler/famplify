@@ -1,0 +1,63 @@
+/*****************************************************************************
+ * HEADER STYLES.
+******************************************************************************/
+
+
+/*****************************************************************************
+ * MOBILE - BTWEEN 0px - 767px.
+******************************************************************************/
+#header { 
+  background: url('../images/slide-2.jpg') no-repeat 50% 55px; 
+  background-size: 130% auto; 
+  -webkit-background-size: 130% auto;
+  width: 100%;
+  #welcome-message {text-align: center; padding-top: 90px;
+    img {width: 100%; max-width: 980px; max-height: 342px;}
+  }
+  .cta-videos {text-align: center; margin: 68px 0 10px; position: relative;
+    a {display: block; text-transform: uppercase; font-size: emCalc(14px); line-height: 22px; margin: 10px 0; padding: 6px 15px; color: #fff;}
+  }
+}
+
+/*****************************************************************************
+ * TABLET - 768px wide and up. This is where the grid changes.
+******************************************************************************/
+@media #{$tablet} { 
+  #header { 
+    background-position: 50% 0; 
+    #welcome-message {padding-top: 115px;
+      img {width: 80%;}
+    }
+    .cta-videos { margin: 45px auto; width: 85%;
+      a {margin: 0 15px; display: inline-block; border: none; -webkit-border-radius: 0px; border-radius: 0px; -webkit-box-shadow: none; box-shadow: none;
+        &.cta-video {padding: 0 35px 0 0; height: 20px; color: #fff; background: url('../images/icon-explanation-video.png') no-repeat 100% 0 transparent; /*font-weight: bold; text-shadow: 0px 0px 4px #525252;filter: dropshadow(color=#525252, offx=0, offy=0);*/}
+        &.white-btn {-webkit-border-radius: 1000px; border-radius: 1000px; background-color: $white; background-image: none; color: #646464; }
+      }
+    }
+  }
+}
+
+/*****************************************************************************
+ * DESKTOP - 1280px wide and up.
+******************************************************************************/
+@media #{$desktop} {
+  #header { 
+    /*background-size: cover; 
+    -webkit-background-size: cover;*/
+    background-attachment: fixed;
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    #welcome-message {min-height: 470px; max-height: 600px; padding-top: 95px;
+      img {width: 100%;}
+    }
+    .cta-videos { margin: 65px auto;}
+  }
+}
+
+/*****************************************************************************
+ * LARGE DESKTOP - 1440px wide and up. 
+******************************************************************************/
+@media #{$large-desktop} {
+
+}

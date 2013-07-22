@@ -1,0 +1,122 @@
+/*****************************************************************************
+ * FOOTER STYLES.
+******************************************************************************/
+
+
+/*****************************************************************************
+ * MOBILE - BTWEEN 0px - 767px.
+******************************************************************************/
+#footer {background: url('../images/footer-tile.gif') repeat 0 0 $black; min-height: 360px; color: $white; padding-bottom: 30px;
+	h3 {color: $white; font-weight: 300; margin: 15px 0; font-family: $helvetica-light;}
+	h5 {color: $white; margin: 0 0 5px;}
+	.group-left {float: left; width: 25%;
+		.content-wrap {overflow: hidden;}
+	}
+	.group-right {float: left; width: 75%;
+		.content-wrap {overflow: hidden;}
+	}
+	.first-column {
+		ul {list-style-type: none; margin: 0; padding: 0; color: $white;
+			li {margin: 0 0 20px; padding: 0; overflow: hidden; display: block;}
+		}
+		.group-left { font-family: $helvetica-cond; text-transform: uppercase; text-align: center;
+			.content-wrap {background: $dark-color; margin-right: 10px;}
+			.month {margin-top: 6px;}
+			.date {font-size: $h2-font-size; line-height: 25px; padding-bottom: 10px;}
+		}
+		.group-right {
+			p {font-size: .9 * $base-font-size; line-height: .9 * $base-line-height;}
+		}
+	}
+	.second-column { 
+		p {font-size: .9 * $base-font-size; line-height: .9 * $base-line-height; }
+		img.cross {margin: 0 auto 10px; display: block; width: 50px; height: 50px;}
+		a {text-transform: uppercase; line-height: 16px; padding: 5px 15px; display: block;}
+		.group-right {width: 100%;}
+	}
+	.third-column {
+		ul.social{ margin: 15px 0 0; padding: 0; overflow: hidden;
+			li {float: right; list-style-type: none; margin: 0 5px;}
+			li.twitter {height: 67px; width: 50px;}
+			a {width: 50px; height: 50px; background-size: 50px 100px; display: block; background: url('../images/twitter.png') no-repeat 0 0 transparent; }
+			.facebook {background-image: url('../images/icon-fb.png');}
+			.gplus {background-image: url('../images/icon-gplus.png');}
+			.pinterest {background-image: url('../images/icon-pinterest.png');}
+			.vimeo {background-image: url('../images/icon-vimeo.png');}
+		}
+		.tweet-box {background: url('../images/twitter-tile.jpg') repeat 0 0 transparent; padding: 15px; margin-top: 5px; clear: both;
+			p {font-size: .9 * $base-font-size; padding: 20px; margin: 0; color: $dark-color; background: url('../images/body-tile.gif') repeat 0 0;
+				a {text-decoration: underline;}
+				span {color: $primary-color;}
+			}
+		}
+	}
+}
+
+/*****************************************************************************
+ * TABLET - 768px wide and up. This is where the grid changes.
+******************************************************************************/
+@media #{$tablet} { 
+  #footer {
+  	.second-column .group-right {width: 75%;
+		a {display: inline-block;}
+  	}
+	.third-column {
+		ul.social {margin: 20px 0 0;
+			li {margin: 0 3px;}
+			li.twitter {height: 55px; width: 40px;}
+			a {width: 40px; height: 40px; background-size: 40px 80px;}
+		}
+		.tweet-box {margin-top: 10px;}
+	}
+  }
+}
+
+/*****************************************************************************
+ * DESKTOP - 1280px wide and up.
+******************************************************************************/
+@media #{$desktop} {
+	#footer {
+		h5 {margin: 0;}
+		.group-left {
+			.content-wrap {margin-right: 10px;}
+		}
+		.group-right {
+			.content-wrap {margin-left: 10px;}
+		}
+		.first-column {
+			.group-left {
+				.content-wrap {margin-right: 10px;}
+				.month {padding-top: 12px; margin-top: 6px;}
+				.date {padding-bottom: 15px;}
+			}
+			.group-right {
+				h5 {}
+				p {}
+				a {}
+			}
+		}
+		.second-column { 
+			p { }
+			img.cross {margin: 0 0 10px 0; width: 70px; height: 70px;}
+			a {}
+		}
+		.third-column {
+			ul.social{ margin: -20px 0 0 0; 
+				li {margin: 0 5px;}
+				li.twitter {height: 80px; width: 60px;}
+				a {width: 60px; height: 60px; background-size: 60px 120px; 
+					&:hover {background-position: 0 -60px;}
+				}
+			}
+			.tweet-box {margin-top: 20px;}
+		}
+	}
+}
+
+/*****************************************************************************
+ * LARGE DESKTOP - 1440px wide and up. 
+******************************************************************************/
+@media #{$large-desktop} {
+
+}

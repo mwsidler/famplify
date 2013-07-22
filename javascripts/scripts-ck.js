@@ -1,0 +1,1 @@
+$(document).ready(function(){var e=$(window);e.bind("resize",function(){var e=$(this).width();1281<=e?$(".display-meter").text("Display: Desktop"):769<=e&&1280>e?$(".display-meter").text("Display: Tablet Landscape"):481<=e&&768>e?$(".display-meter").text("Display: Tablet Portrait"):$(".display-meter").text("Display: Mobile")}).trigger("resize")});
