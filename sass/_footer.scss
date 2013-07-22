@@ -20,7 +20,7 @@
 			li {margin: 0 0 20px; padding: 0; overflow: hidden; display: block;}
 		}
 		.group-left { font-family: $helvetica-cond; text-transform: uppercase; text-align: center;
-			.content-wrap {background: $dark-color; margin-right: 10px;}
+			.content-wrap {background: $dark; margin-right: 10px;}
 			.month {margin-top: 6px;}
 			.date {font-size: $h2-font-size; line-height: 25px; padding-bottom: 10px;}
 		}
@@ -45,9 +45,9 @@
 			.vimeo {background-image: url('../images/icon-vimeo.png');}
 		}
 		.tweet-box {background: url('../images/twitter-tile.jpg') repeat 0 0 transparent; padding: 15px; margin-top: 5px; clear: both;
-			p {font-size: .9 * $base-font-size; padding: 20px; margin: 0; color: $dark-color; background: url('../images/body-tile.gif') repeat 0 0;
+			p {font-size: .9 * $base-font-size; padding: 20px; margin: 0; color: $dark; background: url('../images/body-tile.gif') repeat 0 0;
 				a {text-decoration: underline;}
-				span {color: $primary-color;}
+				span {color: $primary;}
 			}
 		}
 	}

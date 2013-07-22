@@ -13,7 +13,7 @@
   h1 {font-size: $h1-font-size; font-family: "HelveticaNeue-Ultralight", "Helvetica", Helvetica, Arial, sans-serif; border-bottom: 1px solid #dcdad3; margin-bottom: 0;}
   h1 + .row {border-top: 1px solid #fff;}
   .series {margin: 15px 0 0; margin-bottom: 20px;
-    h2 {font-family: $helvetica-light; color: $primary-color;}
+    h2 {font-family: $helvetica-light; color: $primary;}
     .widescreen {border: 4px solid #cbd4d7;}
     h5 {font-size: emCalc(20px);}
     .button {display: block;}
@@ -28,6 +28,7 @@
     -webkit-box-shadow:  0px -10px 20px rgba(0,0,0,0.3);
     box-shadow:  0px -10px 20px rgba(0,0,0,0.3);
     .series {margin: 35px 0;
+      .large-3 {float: right!important;}
       h5 {margin-top: 65px;} 
     }
   }

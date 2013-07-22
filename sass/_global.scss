@@ -64,3 +64,7 @@ body{
 }
 .orbit-slide-number,
 .orbit-timer {display: none;}
+.orbit-bullets li {border: none; width: 15px; height: 15px; background: #c2bfb6; @include box-shadow(white 0px 2px 0px); padding-bottom: 3px;
+  &:hover,
+  &.active {cursor: pointer; background: $primary;}
+}

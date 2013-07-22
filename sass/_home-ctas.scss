@@ -20,7 +20,7 @@
   .button {display: block; width: 100%; margin: 0 auto;}
   .sign-up {text-align: center; padding-top: 30px; padding-bottom: 30px; margin-bottom: 30px;
     h3 {text-transform: uppercase; color: #8b8a87; text-shadow: 0px 1px 0px #fff; filter: dropshadow(color=#fff, offx=0, offy=1);}
-    p {font-size: $p-font-size; color: $dark-color; width: 90%; margin: 0 auto 15px; line-height: .9 * $base-line-height;}
+    p {font-size: $p-font-size; color: $dark; width: 90%; margin: 0 auto 15px; line-height: .9 * $base-line-height;}
   }
 }
 
@@ -31,7 +31,7 @@
   #home-cta {background: url('../images/advertise-bg.jpg') repeat-x 0 0 #cecbc3;  min-height: 288px;
     .cta-bg {background: url('../images/advertise-bg.jpg') repeat-x 0 0 #cecbc3;}
     .cta {background-image: url('../images/cta-bg.png'); background-repeat: no-repeat; background-color: transparent; background-size: 236px 473px; position: relative; z-index: 1; width: 236px; height: 236px; margin: 36px auto;
-      h5 {font-size: $h6-font-size; padding: 45px 0 0px; margin-bottom: 0;color: $dark-color; text-transform: capitalize;}
+      h5 {font-size: $h6-font-size; padding: 45px 0 0px; margin-bottom: 0;color: $dark; text-transform: capitalize;}
     }
     .cta-interact {margin: 0 auto; width: 75%; text-align: center; position: relative; }
     img {width: 40px; height: 40px; padding: 0; border-radius: 0; background: transparent; border: none; float: none; margin: 0;}
