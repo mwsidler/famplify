@@ -6955,27 +6955,34 @@ body {
 /* line 9, ../sass/_header.scss */
 #header {
   background: url("../images/slide-2.jpg") no-repeat 50% 55px;
-  background-size: 100% auto;
-  -webkit-background-size: 100% auto;
   width: 100%;
 }
 /* line 14, ../sass/_header.scss */
 #header #welcome-message {
-  text-align: center;
-  padding-top: 90px;
+  display: table;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 4;
 }
 /* line 15, ../sass/_header.scss */
+#header #welcome-message .message-wrap {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 16, ../sass/_header.scss */
 #header #welcome-message img {
   width: 90%;
   height: auto;
 }
-/* line 17, ../sass/_header.scss */
+/* line 18, ../sass/_header.scss */
 #header .cta-videos {
   text-align: center;
   margin: 68px 0 10px;
   position: relative;
 }
-/* line 18, ../sass/_header.scss */
+/* line 19, ../sass/_header.scss */
 #header .cta-videos a {
   display: block;
   text-transform: uppercase;
@@ -6990,41 +6997,34 @@ body {
  * TABLET - 768px wide and up. This is where the grid changes.
 ******************************************************************************/
 @media only screen and (min-width: 48em) {
-  /* line 26, ../sass/_header.scss */
+  /* line 27, ../sass/_header.scss */
   #header {
     background-position: 50% 0;
   }
-  /* line 28, ../sass/_header.scss */
-  #header #welcome-message {
-    padding-top: 115px;
-  }
-  /* line 29, ../sass/_header.scss */
+  /* line 30, ../sass/_header.scss */
   #header #welcome-message img {
     width: 733px;
     height: 208px;
+    margin-top: 75px;
   }
-  /* line 31, ../sass/_header.scss */
+  /* line 32, ../sass/_header.scss */
   #header .cta-videos {
     margin: 45px auto;
     width: 85%;
   }
-  /* line 32, ../sass/_header.scss */
+  /* line 33, ../sass/_header.scss */
   #header .cta-videos a {
     margin: 0 10px;
     display: inline-block;
-    border: none;
-    -webkit-border-radius: 0px;
-    border-radius: 0px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
   }
 }
 /*****************************************************************************
  * DESKTOP - 1280px wide and up.
 ******************************************************************************/
 @media only screen and (min-width: 64.0625em) {
-  /* line 44, ../sass/_header.scss */
+  /* line 45, ../sass/_header.scss */
   #header {
+    height: 650px;
     /*background-size: cover; 
     -webkit-background-size: cover;*/
     background-attachment: fixed;
@@ -7032,14 +7032,18 @@ body {
     width: 100%;
     position: relative;
   }
-  /* line 51, ../sass/_header.scss */
-  #header #welcome-message {
-    /*min-height: 470px; max-height: 600px;*/
-    padding-top: 95px;
+  /* line 53, ../sass/_header.scss */
+  #header .row,
+  #header .content {
+    height: 100%;
   }
   /* line 54, ../sass/_header.scss */
+  #header #welcome-message {
+    /*min-height: 470px; max-height: 600px; padding-top: 95px;*/
+  }
+  /* line 57, ../sass/_header.scss */
   #header .cta-videos {
-    margin: 65px auto;
+    margin: 75px auto 0;
   }
 }
 /*****************************************************************************

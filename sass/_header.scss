@@ -8,10 +8,11 @@
 ******************************************************************************/
 #header { 
   background: url('../images/slide-2.jpg') no-repeat 50% 55px; 
-  background-size: 100% auto; 
-  -webkit-background-size: 100% auto;
+  // background-size: 100% auto; 
+  // -webkit-background-size: 100% auto;
   width: 100%;
-  #welcome-message {text-align: center; padding-top: 90px;
+  #welcome-message {display: table; height: 100%; margin: 0 auto; position: relative; z-index: 4;
+    .message-wrap {text-align: center; display: table-cell; vertical-align: middle;}
     img {width: 90%; height: auto;}
   }
   .cta-videos {text-align: center; margin: 68px 0 10px; position: relative;
@@ -25,11 +26,11 @@
 @media #{$tablet} { 
   #header { 
     background-position: 50% 0; 
-    #welcome-message {padding-top: 115px;
-      img {width: 733px; height: 208px;}
+    #welcome-message {
+      img {width: 733px; height: 208px; margin-top: 75px;}
     }
     .cta-videos { margin: 45px auto; width: 85%;
-      a {margin: 0 10px; display: inline-block; border: none; -webkit-border-radius: 0px; border-radius: 0px; -webkit-box-shadow: none; box-shadow: none;
+      a {margin: 0 10px; display: inline-block;
         //&.cta-video {padding: 0 35px 0 0; height: 20px; color: #fff; background: url('../images/icon-explanation-video.png') no-repeat 100% 0 transparent; /*font-weight: bold; text-shadow: 0px 0px 4px #525252;filter: dropshadow(color=#525252, offx=0, offy=0);*/}
         //&.white-btn {-webkit-border-radius: 1000px; border-radius: 1000px; background-color: $white; background-image: none; color: #646464; }
       }
@@ -41,17 +42,19 @@
  * DESKTOP - 1280px wide and up.
 ******************************************************************************/
 @media #{$desktop} {
-  #header { 
+  #header { height: 650px;
     /*background-size: cover; 
     -webkit-background-size: cover;*/
     background-attachment: fixed;
     margin: 0 auto; 
     width: 100%; 
     position: relative; 
-    #welcome-message {/*min-height: 470px; max-height: 600px;*/ padding-top: 95px;
+    .row,
+    .content {height: 100%;}
+    #welcome-message {/*min-height: 470px; max-height: 600px; padding-top: 95px;*/
       // img {width: 100%;}
     }
-    .cta-videos { margin: 65px auto;}
+    .cta-videos { margin: 75px auto 0;}
   }
 }
 
