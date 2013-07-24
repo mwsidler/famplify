@@ -1,3 +1,0 @@
-/* 
- * FUNCTIONS
- */function closeNav(e){$(".nav-trigger").css("background-position","0 0");e.animate({right:"100%"},200).addClass("hidden")}$(document).ready(function(){var e=$(".top-bar"),t=$("body").height(),n=$(".nav-trigger, .top-bar li a"),r=$(window);r.bind("resize",function(){var n=$(this).width();1024>=n&&(e.hasClass("hidden")||e.css("min-height",t+"px").addClass("hidden"))}).trigger("resize");n.click(function(){e.hasClass("hidden")?e.css("display","block").animate({right:"0%"},200,function(){n.css("background-position","0 -25px")}).removeClass("hidden"):closeNav(e)})});

@@ -1,1 +1,0 @@
-$(document).ready(function(){$(".orbit-bullets").prependTo(".orbit-container")});
