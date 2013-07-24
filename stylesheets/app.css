@@ -6759,13 +6759,12 @@ body {
   background-image: url("../images/arrow-left.png");
 }
 
-/* line 66, ../sass/_global.scss */
-.orbit-slide-number,
+/* line 65, ../sass/_global.scss */
 .orbit-timer {
   display: none;
 }
 
-/* line 67, ../sass/_global.scss */
+/* line 66, ../sass/_global.scss */
 .orbit-bullets li {
   border: none;
   width: 15px;
@@ -6776,7 +6775,7 @@ body {
   box-shadow: white 0px 2px 0px;
   padding-bottom: 3px;
 }
-/* line 69, ../sass/_global.scss */
+/* line 68, ../sass/_global.scss */
 .orbit-bullets li:hover, .orbit-bullets li.active {
   cursor: pointer;
   background: #5db8ea;
@@ -6956,8 +6955,8 @@ body {
 /* line 9, ../sass/_header.scss */
 #header {
   background: url("../images/slide-2.jpg") no-repeat 50% 55px;
-  background-size: 130% auto;
-  -webkit-background-size: 130% auto;
+  background-size: 100% auto;
+  -webkit-background-size: 100% auto;
   width: 100%;
 }
 /* line 14, ../sass/_header.scss */
@@ -6967,9 +6966,8 @@ body {
 }
 /* line 15, ../sass/_header.scss */
 #header #welcome-message img {
-  width: 100%;
-  max-width: 980px;
-  max-height: 342px;
+  width: 90%;
+  height: auto;
 }
 /* line 17, ../sass/_header.scss */
 #header .cta-videos {
@@ -7002,7 +7000,8 @@ body {
   }
   /* line 29, ../sass/_header.scss */
   #header #welcome-message img {
-    width: 80%;
+    width: 733px;
+    height: 208px;
   }
   /* line 31, ../sass/_header.scss */
   #header .cta-videos {
@@ -7011,29 +7010,13 @@ body {
   }
   /* line 32, ../sass/_header.scss */
   #header .cta-videos a {
-    margin: 0 15px;
+    margin: 0 10px;
     display: inline-block;
     border: none;
     -webkit-border-radius: 0px;
     border-radius: 0px;
     -webkit-box-shadow: none;
     box-shadow: none;
-  }
-  /* line 33, ../sass/_header.scss */
-  #header .cta-videos a.cta-video {
-    padding: 0 35px 0 0;
-    height: 20px;
-    color: #fff;
-    background: url("../images/icon-explanation-video.png") no-repeat 100% 0 transparent;
-    /*font-weight: bold; text-shadow: 0px 0px 4px #525252;filter: dropshadow(color=#525252, offx=0, offy=0);*/
-  }
-  /* line 34, ../sass/_header.scss */
-  #header .cta-videos a.white-btn {
-    -webkit-border-radius: 1000px;
-    border-radius: 1000px;
-    background-color: white;
-    background-image: none;
-    color: #646464;
   }
 }
 /*****************************************************************************
@@ -7051,13 +7034,8 @@ body {
   }
   /* line 51, ../sass/_header.scss */
   #header #welcome-message {
-    min-height: 470px;
-    max-height: 600px;
+    /*min-height: 470px; max-height: 600px;*/
     padding-top: 95px;
-  }
-  /* line 52, ../sass/_header.scss */
-  #header #welcome-message img {
-    width: 100%;
   }
   /* line 54, ../sass/_header.scss */
   #header .cta-videos {
@@ -7109,49 +7087,80 @@ body {
   font-size: 1.25em;
 }
 /* line 19, ../sass/_current-series.scss */
+#content .series p {
+  font-size: 0.875em;
+}
+/* line 20, ../sass/_current-series.scss */
 #content .series .button {
   display: block;
+}
+/* line 22, ../sass/_current-series.scss */
+#content .orbit-bullets {
+  display: none;
 }
 
 /*****************************************************************************
  * TABLET - 768px wide and up. This is where the grid changes.
 ******************************************************************************/
 @media only screen and (min-width: 48em) {
-  /* line 27, ../sass/_current-series.scss */
+  /* line 29, ../sass/_current-series.scss */
   #content {
     -webkit-box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.3);
     box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.3);
   }
-  /* line 30, ../sass/_current-series.scss */
+  /* line 32, ../sass/_current-series.scss */
   #content .series {
     margin: 35px 0;
   }
-  /* line 31, ../sass/_current-series.scss */
+  /* line 33, ../sass/_current-series.scss */
+  #content .series h2 {
+    font-size: 1.625em;
+  }
+  /* line 34, ../sass/_current-series.scss */
   #content .series .large-3 {
     float: right !important;
   }
-  /* line 32, ../sass/_current-series.scss */
+  /* line 35, ../sass/_current-series.scss */
   #content .series h5 {
     margin-top: 65px;
+  }
+  /* line 37, ../sass/_current-series.scss */
+  #content .orbit-bullets {
+    display: block;
+    position: relative;
+    margin: -40px 0 5px 5px;
+    float: right;
+  }
+  /* line 38, ../sass/_current-series.scss */
+  #content .orbit-bullets li {
+    margin-right: 15px;
   }
 }
 /*****************************************************************************
  * DESKTOP - 1280px wide and up.
 ******************************************************************************/
 @media only screen and (min-width: 64.0625em) {
-  /* line 41, ../sass/_current-series.scss */
+  /* line 47, ../sass/_current-series.scss */
   #content {
     position: relative;
   }
-  /* line 42, ../sass/_current-series.scss */
+  /* line 48, ../sass/_current-series.scss */
   #content h1 {
     font-size: 4.375em;
   }
-  /* line 43, ../sass/_current-series.scss */
+  /* line 49, ../sass/_current-series.scss */
   #content .series {
     margin: 35px 0 50px;
   }
-  /* line 44, ../sass/_current-series.scss */
+  /* line 50, ../sass/_current-series.scss */
+  #content .series h2 {
+    font-size: 1.875em;
+  }
+  /* line 51, ../sass/_current-series.scss */
+  #content .series p {
+    font-size: 1em;
+  }
+  /* line 52, ../sass/_current-series.scss */
   #content .series .button {
     display: inline-block;
   }
@@ -7166,22 +7175,41 @@ body {
  * MOBILE - BTWEEN 0px - 767px.
 ******************************************************************************/
 /* line 9, ../sass/_home-ctas.scss */
+#call-out {
+  text-align: center;
+  background: #e2e2d9;
+}
+/* line 10, ../sass/_home-ctas.scss */
+#call-out .sign-up {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+/* line 11, ../sass/_home-ctas.scss */
+#call-out .sign-up h3 {
+  text-transform: uppercase;
+  color: #8b8a87;
+  text-shadow: 0px 1px 0px #fff;
+  filter: dropshadow(color=white, offx=0, offy=1);
+}
+/* line 12, ../sass/_home-ctas.scss */
+#call-out .sign-up p {
+  font-size: 1em;
+  color: #242424;
+  width: 90%;
+  margin: 0 auto 15px;
+  line-height: 135%;
+}
+
+/* line 15, ../sass/_home-ctas.scss */
 #home-cta {
   background-color: #cecbc3;
 }
-/* line 11, ../sass/_home-ctas.scss */
-#home-cta .row.top {
-  border-bottom: 1px solid #b9b7b3;
-}
-/* line 12, ../sass/_home-ctas.scss */
-#home-cta .row.bottom {
-  border-top: 1px solid #e2e2da;
-}
-/* line 14, ../sass/_home-ctas.scss */
+/* line 16, ../sass/_home-ctas.scss */
 #home-cta .cta {
   margin: 20px 0;
 }
-/* line 15, ../sass/_home-ctas.scss */
+/* line 17, ../sass/_home-ctas.scss */
 #home-cta .cta h5 {
   font-size: 1.5em;
   margin: 0 0 15px;
@@ -7191,7 +7219,13 @@ body {
   text-shadow: 0px 1px 0px #fff;
   filter: dropshadow(color=white, offx=0, offy=1);
 }
-/* line 18, ../sass/_home-ctas.scss */
+/* line 19, ../sass/_home-ctas.scss */
+#home-cta .button {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 20, ../sass/_home-ctas.scss */
 #home-cta img {
   width: 80px;
   height: 80px;
@@ -7202,56 +7236,49 @@ body {
   float: left;
   margin-right: 15px;
 }
-/* line 19, ../sass/_home-ctas.scss */
-#home-cta p {
+/* line 21, ../sass/_home-ctas.scss */
+#home-cta .top {
+  border-bottom: 1px solid #b9b7b3;
+}
+/* line 22, ../sass/_home-ctas.scss */
+#home-cta .top p {
   font-size: 1em;
   line-height: 135%;
   margin-bottom: 15px;
   padding-top: 5px;
 }
-/* line 20, ../sass/_home-ctas.scss */
-#home-cta .button {
-  display: block;
-  width: 100%;
-  margin: 0 auto;
-}
-/* line 21, ../sass/_home-ctas.scss */
-#home-cta .sign-up {
+/* line 24, ../sass/_home-ctas.scss */
+#home-cta .bottom {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 30px;
+  border-top: 1px solid #e2e2da;
 }
-/* line 22, ../sass/_home-ctas.scss */
-#home-cta .sign-up h3 {
-  text-transform: uppercase;
-  color: #8b8a87;
-  text-shadow: 0px 1px 0px #fff;
-  filter: dropshadow(color=white, offx=0, offy=1);
-}
-/* line 23, ../sass/_home-ctas.scss */
-#home-cta .sign-up p {
-  font-size: 1em;
-  color: #242424;
-  width: 90%;
-  margin: 0 auto 15px;
-  line-height: 135%;
+/* line 25, ../sass/_home-ctas.scss */
+#home-cta .bottom p {
+  font-size: 1.25em;
 }
 
 /*****************************************************************************
  * TABLET - 768px wide and up. This is where the grid changes.
 ******************************************************************************/
 @media only screen and (min-width: 48em) {
-  /* line 31, ../sass/_home-ctas.scss */
+  /* line 35, ../sass/_home-ctas.scss */
+  #call-out .sign-up p {
+    width: 60%;
+    margin-bottom: 0;
+  }
+
+  /* line 38, ../sass/_home-ctas.scss */
   #home-cta {
     background: url("../images/advertise-bg.jpg") repeat-x 0 0 #cecbc3;
     min-height: 288px;
   }
-  /* line 32, ../sass/_home-ctas.scss */
+  /* line 39, ../sass/_home-ctas.scss */
   #home-cta .cta-bg {
     background: url("../images/advertise-bg.jpg") repeat-x 0 0 #cecbc3;
   }
-  /* line 33, ../sass/_home-ctas.scss */
+  /* line 40, ../sass/_home-ctas.scss */
   #home-cta .cta {
     background-image: url("../images/cta-bg.png");
     background-repeat: no-repeat;
@@ -7263,7 +7290,7 @@ body {
     height: 236px;
     margin: 36px auto;
   }
-  /* line 34, ../sass/_home-ctas.scss */
+  /* line 41, ../sass/_home-ctas.scss */
   #home-cta .cta h5 {
     font-size: 1em;
     padding: 45px 0 0px;
@@ -7271,14 +7298,14 @@ body {
     color: #242424;
     text-transform: capitalize;
   }
-  /* line 36, ../sass/_home-ctas.scss */
+  /* line 43, ../sass/_home-ctas.scss */
   #home-cta .cta-interact {
     margin: 0 auto;
     width: 75%;
     text-align: center;
     position: relative;
   }
-  /* line 37, ../sass/_home-ctas.scss */
+  /* line 44, ../sass/_home-ctas.scss */
   #home-cta img {
     width: 40px;
     height: 40px;
@@ -7289,30 +7316,31 @@ body {
     float: none;
     margin: 0;
   }
-  /* line 38, ../sass/_home-ctas.scss */
-  #home-cta p {
+  /* line 45, ../sass/_home-ctas.scss */
+  #home-cta .top p {
     padding: 0;
     margin-bottom: 0;
     font-size: 0.7em;
     line-height: 150%;
     height: 57px;
   }
-  /* line 39, ../sass/_home-ctas.scss */
+  /* line 46, ../sass/_home-ctas.scss */
   #home-cta .button {
     display: inline-block;
     width: auto;
-  }
-  /* line 41, ../sass/_home-ctas.scss */
-  #home-cta .sign-up p {
-    width: 60%;
-    margin-bottom: 0;
   }
 }
 /*****************************************************************************
  * DESKTOP - 1280px wide and up.
 ******************************************************************************/
 @media only screen and (min-width: 64.0625em) {
-  /* line 51, ../sass/_home-ctas.scss */
+  /* line 56, ../sass/_home-ctas.scss */
+  #call-out .sign-up p {
+    font-size: 1.2em;
+    width: 60%;
+  }
+
+  /* line 60, ../sass/_home-ctas.scss */
   #home-cta .cta {
     background-size: 289px 576px;
     background-position: 0 0;
@@ -7320,35 +7348,30 @@ body {
     height: 288px;
     z-index: 9;
   }
-  /* line 52, ../sass/_home-ctas.scss */
+  /* line 61, ../sass/_home-ctas.scss */
   #home-cta .cta h5 {
     padding: 60px 0 15px;
     margin-bottom: 0;
   }
-  /* line 54, ../sass/_home-ctas.scss */
+  /* line 63, ../sass/_home-ctas.scss */
   #home-cta .cta-interact {
     height: 145px;
     width: 70%;
   }
-  /* line 55, ../sass/_home-ctas.scss */
+  /* line 64, ../sass/_home-ctas.scss */
   #home-cta img {
     width: 95px;
     height: 95px;
     margin: 0 auto;
   }
-  /* line 56, ../sass/_home-ctas.scss */
-  #home-cta p {
+  /* line 65, ../sass/_home-ctas.scss */
+  #home-cta .top p {
     font-size: 0.8em;
     cursor: default;
   }
-  /* line 57, ../sass/_home-ctas.scss */
+  /* line 66, ../sass/_home-ctas.scss */
   #home-cta .button {
     margin-top: 10px;
-  }
-  /* line 59, ../sass/_home-ctas.scss */
-  #home-cta .sign-up p {
-    font-size: 1.2em;
-    width: 60%;
   }
 }
 /*****************************************************************************

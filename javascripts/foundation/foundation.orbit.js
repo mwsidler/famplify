@@ -16,7 +16,7 @@
       bullets: true,
       stack_on_small: true,
       navigation_arrows: true,
-      slide_number: true,
+      slide_number: false,
       container_class: 'orbit-container',
       stack_on_small_class: 'orbit-stack-on-small',
       next_class: 'orbit-next',

@@ -1,39 +1,47 @@
 $(document).ready(function(){
 
-  $('.orbit-bullets').prependTo('.orbit-container');
+  //LOCAL SCROLL
+  $('#current-series').localScroll();
 
-//   //VARIABLES
-//   var $window = $(window);
+  //MOVES THE ORBIT BULLETS TO THE TOP RIGHT FROM THE BOTTOM LEFT
+  $('.orbit-bullets').insertAfter('#current-series');
+  //ADDS/REMOVES THE CLASS OF .ACTIVE FROM THE DOTS WHEN CLICKED
+  $('.orbit-prev, .orbit-next, .orbit-bullets li').on('click', function(){
+    $('.orbit-bullets li').toggleClass('active');
+  });
 
-// //RESPONSIVE QUERIES
-//   $window
-//     .bind('resize', function () {
+  //VARIABLES
+  var $window = $(window);
 
-//       var width = $(this).width();
+//RESPONSIVE QUERIES
+  $window
+    .bind('resize', function () {
 
-//       // Desktop
-//       if (1281 <= width) {
-//         //put code here for desktop
-//         $('.display-meter').text('Display: Desktop');
-//       }
-//       // Tablet Landscape
-//       else if (769 <= width && 1280 > width) {
-//         //put code here for landscape
-//         $('.display-meter').text('Display: Tablet Landscape');
-//       }
-//       // Tablet Portrait
-//       else if (481 <= width && 768 > width) {
-//         //put code here for portrait
-//         $('.display-meter').text('Display: Tablet Portrait');
-//       }
-//       // Mobile
-//       else {
-//         //put code here for mobile
-//         $('.display-meter').text('Display: Mobile');
-//       }
+      var width = $(this).width();
 
-//     })
-//     .trigger('resize');
-//  //CLOSE RESPONSIVE QUERIES
+      // Desktop
+      if (1281 <= width) {
+        //put code here for desktop
+        $('.display-meter').text('Display: Desktop');
+      }
+      // Tablet Landscape
+      else if (769 <= width && 1280 > width) {
+        //put code here for landscape
+        $('.display-meter').text('Display: Tablet Landscape');
+      }
+      // Tablet Portrait
+      else if (481 <= width && 768 > width) {
+        //put code here for portrait
+        $('.display-meter').text('Display: Tablet Portrait');
+      }
+      // Mobile
+      else {
+        //put code here for mobile
+        $('.display-meter').text('Display: Mobile');
+      }
+
+    })
+    .trigger('resize');
+ //CLOSE RESPONSIVE QUERIES
 
 });

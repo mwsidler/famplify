@@ -20,7 +20,7 @@ $(document).ready(function(){
   
 //RESPONSIVE QUERY
   $window
-    .bind('resize', function () {
+    .once('bound').bind('resize', function () {
 
       var width = $(this).width();
 
@@ -33,27 +33,28 @@ $(document).ready(function(){
           }
       }
 
+      //MOBILE NAVIGATION
+      //animates the navigation in and out
+      $trigger.click(function () {
+        
+        if (1024 >= width) {
+          if ($nav.hasClass('hidden')) {
+            //displays the wrapper - {display: block;}, then animates out
+            $nav.css('display', 'block').animate({ 'right': '0%' }, 200, function () {
+              //and on animation completion, it changes the trigger graphic
+              $trigger.css('background-position', '0 -25px');
+              //finally takes off the class of hidden so that the next time it is clicked it runs the else{}
+            }).removeClass('hidden');
+          } else {
+            closeNav($nav);
+          }
+        }
+
+      });
+      //CLOSE MOBILE NAVIGATION
+
     })
     .trigger('resize');
  //CLOSE RESPONSIVE QUERIES
-
-  //MOBILE NAVIGATION
-  //animates the navigation in and out
-  $trigger.click(function () {
-
-    if ($nav.hasClass('hidden')) {
-      //displays the wrapper - {display: block;}, then animates out
-      $nav.css('display', 'block').animate({ 'right': '0%' }, 200, function () {
-        //and on animation completion, it changes the trigger graphic
-        $trigger.css('background-position', '0 -25px');
-        //finally takes off the class of hidden so that the next time it is clicked it runs the else{}
-      }).removeClass('hidden');
-    } else {
-      closeNav($nav);
-    }
-
-  });
-  //CLOSE MOBILE NAVIGATION
-
 
 });

@@ -25,7 +25,7 @@
         <a class="logo" href="#"><img src="images/famplify-logo.png" alt="Famplify" title="Famplify" /></a>
         <nav class="top-bar">
             <ul>
-            <li><a href="http://www.famplify.blogspot.com">The Adventures</a></li>
+            <li><a href="#current-series">The Adventures</a></li>
             <li><a href="http://www.famplify.blogspot.com">For Parents</a></li>
             <li><a href="churches.html">For Churches</a></li>
             <li><a href="http://www.surveymonkey.com/s.aspx?sm=A%2bwzx4664PZFeB73nK1KBQ%3d%3d">Feedback</a></li>
@@ -44,8 +44,8 @@
           <img src="images/welcome-img.png" alt="Welcome to Famplify" title="Welcome to Famplify" />
         </div>
         <div class="cta-videos">
-          <a class="cta-video button tiny radius" data-reveal-id="whatisfamplify">What is Famplify?</a> 
-          <a class="white-btn button tiny radius" data-reveal-id="icecreamsocial">Adventure & Ice Cream</a>
+          <a class="white-btn button tiny radius" data-reveal-id="whatisfamplify">What is Famplify?</a> 
+          <a class="white-btn button tiny radius" href="#">Sign-up for Updates</a>
         </div>
 
       </div>
@@ -56,12 +56,12 @@
     <div class="row">
       <div class="large-12 small-12 columns">
         <h1>Current Series</h1>
+        <a id="current-series"></a>
         <!-- Orbit Container -->
-        <div class="orbit-container">
+        <div class="series-slider orbit-container">
           <ul data-orbit="" class="orbit-slides-container">
             <li>
               <div class="series row">
-                <!--<div class="large-1 columns control-left">controler</div>-->
                 <div class="large-7 push-1 small-10 small-centered large-uncentered columns">
                   <h2>Adventure & Ice Cream Family Night!</h2>
                   <div class="flex-video widescreen vimeo">
@@ -70,14 +70,13 @@
                 </div>
                 <div class="large-3 pull-1 small-10 small-centered large-uncentered columns">
                   <h5>Trailer: Family Night</h5>
-                  <p>Adventure & Ice Cream Family Night is a Joshua Initiative production that is being hosted at Calvary Community Church's central campus in Phoenix, Arizona. You and your family are invited to come and hang out with us on Friday, August 2nd for a night of fun, fellowship, adventure, ice cream and family.</p>
+                  <p>You and your family are invited to come and hang out with us on Friday, August 2nd for a night of fun, fellowship, adventure, ice cream and family.</p>
+                  <a class="white-btn button tiny radius" href="http://goo.gl/maps/4z4kL" alt="Driving Directions"/>Get Directions</a>
                 </div>
-                <!--<div class="large-1 columns controls-right">controler</div>-->
               </div>
             </li>
             <li>
               <div class="series row">
-                <!--<div class="large-1 columns control-left">controler</div>-->
                 <div class="large-7 push-1 small-10 small-centered large-uncentered columns">
                   <h2>Know Your King!</h2>
                   <div class="flex-video widescreen vimeo">
@@ -89,7 +88,6 @@
                   <p>Does God create EACH of us for a specific purpose? If so, what’s YOUR purpose? Find out in the series premiere...</p>
                   <!--<a class="button small radius" href="http://www.famplify.blogspot.com">View Series</a>-->
                 </div>
-                <!--<div class="large-1 columns controls-right">controler</div>-->
               </div>
             </li>
           </ul>
@@ -98,7 +96,16 @@
     </div>
   </section>
   <!-- Section #3 -->
-  <section id="home-cta">
+  <section id="call-out">
+    <div class="row">
+      <div class="large-12 small-12 columns sign-up">
+        <h3>IT'S KINDA LIKE VBS... BUT FOR THE ENTIRE FAMILY!</h3>
+        <p>Adventures that will have your kids reminding YOU about 'family-night'!</p>
+        <!--<a class="button small radius" href="http://www.famplify.blogspot.com">CHECK OUT THE ADVENTURES</a>-->
+      </div>
+    </div>
+  </section>
+  <section id="home-cta">  
     <div class="row top">
       <div class="large-4 small-12 columns cta-bg">
         <div class="cta">
@@ -133,9 +140,8 @@
     </div>
     <div class="row bottom">
       <div class="large-12 small-12 columns sign-up">
-        <h3>IT'S KINDA LIKE VBS... BUT FOR THE ENTIRE FAMILY!</h3>
-        <p>Adventures that will have your kids reminding YOU about 'family-night'!</p>
-        <a class="button small radius" href="http://www.famplify.blogspot.com">CHECK OUT THE ADVENTURES</a>
+        <p>We are just starting out, if you want to be kept in the know...</p>
+        <a class="button small radius" href="http://www.famplify.blogspot.com">Sign-up for Updates</a>
       </div>
     </div>
   </section>
@@ -237,6 +243,8 @@
   <script src="javascripts/foundation/foundation.topbar.js"></script>
 
   <!--PERSONAL SCRIPTS-->
+    <script src="javascripts/vendors/jquery-once.js"></script>
+    <script src="javascripts/vendors/jquery.localscroll-1.2.7-min.js"></script>
     <script src="javascripts/cta-hover.js"></script>
     <script src="javascripts/mobile-nav.js"></script>
     <script src="javascripts/parallax-scroll.js"></script>
