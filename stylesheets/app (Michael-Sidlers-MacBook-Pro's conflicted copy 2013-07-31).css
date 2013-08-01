@@ -1,0 +1,51 @@
+/*
+Syntax error: File to import not found or unreadable: compass/css3.
+              Load path: /Users/mwsidler/Dropbox/Freelance Work/04-23-2013-Famplify/famplify
+        on line 1 of sass/app.scss
+
+1: @import "compass/css3";
+2: 
+3: // Global Foundation Settings
+4: @import "modules/settings";
+5: 
+6: // Modules
+
+Backtrace:
+sass/app.scss:1
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/import_node.rb:64:in `rescue in import'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/import_node.rb:42:in `import'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/import_node.rb:25:in `imported_file'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:227:in `rescue in visit_import'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:232:in `visit_import'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/root_node.rb:20:in `render'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:340:in `update_stylesheet'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:202:in `block in update_stylesheets'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:200:in `each'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:200:in `update_stylesheets'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:298:in `block in watch'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/vendor/listen/lib/listen/multi_listener.rb:86:in `call'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/vendor/listen/lib/listen/multi_listener.rb:86:in `on_change'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/vendor/listen/lib/listen/multi_listener.rb:95:in `block in initialize_adapter'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/vendor/listen/lib/listen/adapters/polling.rb:55:in `call'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/vendor/listen/lib/listen/adapters/polling.rb:55:in `poll'
+/Users/mwsidler/.rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/sass-3.2.1/vendor/listen/lib/listen/adapters/polling.rb:31:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: compass/css3.\A               Load path: /Users/mwsidler/Dropbox/Freelance Work/04-23-2013-Famplify/famplify\A         on line 1 of sass/app.scss\A \A 1: @import \"compass/css3\";\A 2: \A 3: // Global Foundation Settings\A 4: @import \"modules/settings\";\A 5: \A 6: // Modules"; }

@@ -2,21 +2,20 @@
  * HEADER STYLES.
 ******************************************************************************/
 
-
 /*****************************************************************************
  * MOBILE - BTWEEN 0px - 767px.
 ******************************************************************************/
 #header { 
-  background: url('../images/slide-2.jpg') no-repeat 50% 55px; 
+  background: url('../images/slide.jpg') no-repeat 50% 55px;
   // background-size: 100% auto; 
   // -webkit-background-size: 100% auto;
   width: 100%;
   #welcome-message {display: table; height: 100%; margin: 0 auto; position: relative; z-index: 4;
     .message-wrap {text-align: center; display: table-cell; vertical-align: middle;}
-    img {width: 90%; height: auto;}
+    img {width: 90%; height: auto; margin-top: 100px;}
   }
-  .cta-videos {text-align: center; margin: 68px 0 10px; position: relative;
-    a {display: block; text-transform: uppercase; font-size: emCalc(14px); line-height: 22px; margin: 10px 0; padding: 6px 15px; color: #fff;}
+  .cta-videos {text-align: center; margin: 10px 0 25px; position: relative;
+    a {text-transform: uppercase; font-size: emCalc(14px); line-height: 22px; margin: 20px 0; padding: 15px; color: #fff;}
   }
 }
 
@@ -24,10 +23,10 @@
  * TABLET - 768px wide and up. This is where the grid changes.
 ******************************************************************************/
 @media #{$tablet} { 
-  #header { 
+  #header { height: 550px;
     background-position: 50% 0; 
     #welcome-message {
-      img {width: 733px; height: 208px; margin-top: 75px;}
+      img {width: 733px; height: 208px; margin-top: 165px;}
     }
     .cta-videos { margin: 45px auto; width: 85%;
       a {margin: 0 10px; display: inline-block;
@@ -52,9 +51,11 @@
     .row,
     .content {height: 100%;}
     #welcome-message {/*min-height: 470px; max-height: 600px; padding-top: 95px;*/
-      // img {width: 100%;}
+      img {margin-top: 140px;}
     }
-    .cta-videos { margin: 75px auto 0;}
+    .cta-videos { margin: 75px auto 0; 
+      a {padding: 20px 50px;}
+    }
   }
 }
 

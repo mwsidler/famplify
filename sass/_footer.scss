@@ -20,9 +20,9 @@
 			li {margin: 0 0 20px; padding: 0; overflow: hidden; display: block;}
 		}
 		.group-left { font-family: $helvetica-cond; text-transform: uppercase; text-align: center;
-			.content-wrap {background: $dark; margin-right: 10px;}
-			.month {margin-top: 6px;}
-			.date {font-size: $h2-font-size; line-height: 25px; padding-bottom: 10px;}
+			.content-wrap {background: $dark; margin-right: 10px; min-height: 75px;}
+			.month {background: black;}
+			.date {font-size: $h2-font-size; line-height: 25px; padding: 10px 0;}
 		}
 		.group-right {
 			p {font-size: .9 * $base-font-size; line-height: .9 * $base-line-height;}
@@ -87,7 +87,6 @@
 		.first-column {
 			.group-left {
 				.content-wrap {margin-right: 10px;}
-				.month {padding-top: 12px; margin-top: 6px;}
 				.date {padding-bottom: 15px;}
 			}
 			.group-right {

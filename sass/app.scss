@@ -1,7 +1,11 @@
 @import "compass/css3";
 
 // Global Foundation Settings
-@import "settings";
+@import "modules/settings";
+
+// Modules
+@import "modules/placeholders";
+@import "modules/mixins";
 
 // Comment out this import if you don't want to use normalize
 @import "normalize";
@@ -23,6 +27,7 @@
 
 // Content Styles
 @import "current-series";
+@import "temp-sections";
 
 // Content Styles
 @import "home-ctas";

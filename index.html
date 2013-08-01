@@ -7,10 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Famplify</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script src="javascripts/vendor/custom.modernizr.js"></script>
+    <script type="text/javascript" src="javascripts/vendor/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="javascripts/vendor/custom.modernizr.js"></script>    
+    <script type="text/javascript" src="javascripts/vendor/jquery.localscroll-1.2.7-min.js"></script>
+    <script type="text/javascript" src="javascripts/vendor/jquery.scrollTo-1.4.3.1-min.js"></script>
+    <link type="image/x-icon" rel="icon" href="favicon.ico" />
+
+    <!--FONT AWESOME INCLUDES-->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
 </head>
-<body class="home">
+<body class="front page-home">
 
 <!--  <div class="row">
     <div class="display-meter small-12 large-12 columns">
@@ -22,14 +29,16 @@
     <div class="row">
       <div class="header-nav large-12 small-12 columns">
         <div class="nav-trigger hide-for-large-up"></div>
-        <a class="logo" href="#"><img src="images/famplify-logo.png" alt="Famplify" title="Famplify" /></a>
+        <a class="logo" href="index.html"><img src="images/famplify-logo.png" alt="Famplify" title="Famplify" /></a>
         <nav class="top-bar">
-            <ul>
-            <li><a href="#current-series">The Adventures</a></li>
-            <li><a href="http://www.famplify.blogspot.com">For Parents</a></li>
-            <li><a href="churches.html">For Churches</a></li>
-            <li><a href="http://www.surveymonkey.com/s.aspx?sm=A%2bwzx4664PZFeB73nK1KBQ%3d%3d">Feedback</a></li>
-            </ul>
+          <ul>
+            <li><a href="#series">Adventures</a></li>
+            <li><a href="families.html">Families</a></li>
+            <li><a href="churches.html">Churches/Groups</a></li>
+            <li><a href="http://famplify.wufoo.com/forms/z7x4m1/" target="_blank">Feedback</a></li>
+            <li><a class="show-desktop-up" data-reveal-id="whatisfamplify">What is Famplify?</a></li> 
+            <li><a class="show-touch-down-block" href="#">What is Famplify?</a></li> 
+          </ul>
         </nav>
       </div>
     </div>
@@ -43,8 +52,8 @@
           <div class="message-wrap">
             <img src="images/welcome-img.png" alt="Welcome to Famplify" title="Welcome to Famplify" />
             <div class="cta-videos">
-              <a class="white-btn button tiny radius" data-reveal-id="whatisfamplify">What is Famplify?</a> 
-              <a class="white-btn button tiny radius" href="#">Sign-up for Updates</a>
+              <a class="white-btn button radius" href="http://famplify.wufoo.com/forms/z7x4m1/" target="_blank">Take the survey</a>
+              <a class="white-btn button radius" href="http://famplify.wufoo.com/forms/m7x4z5/" target="_blank">Stay Up-To-Date</a>
             </div>
           </div>
         </div>
@@ -52,41 +61,49 @@
     </div>
   </section>
   <!-- Section #2 -->
+  <a id="series"></a>
   <section id="content" data-speed="3" data-type="background">
     <div class="row">
       <div class="large-12 small-12 columns">
-        <h1>Current Series</h1>
-        <a id="current-series"></a>
+        <h1 class="front-title">Current Series</h1>
         <!-- Orbit Container -->
         <div class="series-slider orbit-container">
           <ul data-orbit="" class="orbit-slides-container">
             <li>
               <div class="series row">
-                <div class="large-7 push-1 small-10 small-centered large-uncentered columns">
-                  <h2>Adventure & Ice Cream Family Night!</h2>
-                  <div class="flex-video widescreen vimeo">
-                    <iframe src="http://player.vimeo.com/video/67766624?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                <div class="large-10 small-centered small-10 columns">
+                  <div class="row">
+                    <div class="large-8 columns">
+                      <h2>Adventure & Ice Cream Family Night!</h2>
+                      <div class="flex-video widescreen vimeo">
+                        <iframe src="http://player.vimeo.com/video/66093663?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                      </div>
+                    </div>
+                    <div class="large-4 columns">
+                      <h5>Trailer: Family Night</h5>
+                      <p>You and your family are invited to come and hang out with us on Friday, August 2nd for a night of fun, fellowship, adventure, ice cream and family.</p>
+                      <a class="white-btn button tiny radius" href="http://goo.gl/maps/4z4kL" alt="Driving Directions"/>Get Directions</a>
+                    </div>
                   </div>
-                </div>
-                <div class="large-3 pull-1 small-10 small-centered large-uncentered columns">
-                  <h5>Trailer: Family Night</h5>
-                  <p>You and your family are invited to come and hang out with us on Friday, August 2nd for a night of fun, fellowship, adventure, ice cream and family.</p>
-                  <a class="white-btn button tiny radius" href="http://goo.gl/maps/4z4kL" alt="Driving Directions"/>Get Directions</a>
                 </div>
               </div>
             </li>
             <li>
               <div class="series row">
-                <div class="large-7 push-1 small-10 small-centered large-uncentered columns">
-                  <h2>Know Your King!</h2>
-                  <div class="flex-video widescreen vimeo">
-                    <iframe src="http://player.vimeo.com/video/64747330?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                <div class="large-10 small-centered small-10 columns">
+                  <div class="row">
+                    <div class="large-8 columns">
+                      <h2>Know Your King!</h2>
+                      <div class="flex-video widescreen vimeo">
+                        <iframe src="http://player.vimeo.com/video/64747330?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                      </div>
+                    </div>
+                    <div class="large-4 columns">
+                      <h5>Pilot Episode: Adam & Eve</h5>
+                      <p>Does God create EACH of us for a specific purpose? If so, what’s YOUR purpose? Find out in the series premiere...</p>
+                      <!--<a class="button small radius" href="http://www.famplify.blogspot.com">View Series</a>-->
+                    </div>
                   </div>
-                </div>
-                <div class="large-3 pull-1 small-10 small-centered large-uncentered columns">
-                  <h5>Pilot Episode: Adam & Eve</h5>
-                  <p>Does God create EACH of us for a specific purpose? If so, what’s YOUR purpose? Find out in the series premiere...</p>
-                  <!--<a class="button small radius" href="http://www.famplify.blogspot.com">View Series</a>-->
                 </div>
               </div>
             </li>
@@ -99,8 +116,8 @@
   <section id="call-out">
     <div class="row">
       <div class="large-12 small-12 columns sign-up">
-        <h3>IT'S KINDA LIKE VBS... BUT FOR THE ENTIRE FAMILY!</h3>
-        <p>Adventures that will have your kids reminding YOU about 'family-night'!</p>
+        <h3>"IT'S KINDA LIKE VBS... BUT FOR THE ENTIRE FAMILY!"</h3>
+        <p>Adventures that will have your kids reminding YOU about "family-night"!</p>
         <!--<a class="button small radius" href="http://www.famplify.blogspot.com">CHECK OUT THE ADVENTURES</a>-->
       </div>
     </div>
@@ -109,39 +126,40 @@
     <div class="row top">
       <div class="large-4 small-12 columns cta-bg">
         <div class="cta">
-          <h5>How it Works</h3>
+          <h5>Family</h5>
           <div class="cta-interact">
-            <img src="images/cta-1.png" alt="How it Works"/>
-            <p>Whether a family, home group or church, this 2 minute video will show you how it can work for you.</p>
-            <a class="button tiny radius" href="http://www.famplify.blogspot.com">watch</a>
+            <i class="icon icon-home"></i>
+            <p>Adventure, Ice Cream and God's Word... family Bible study doesn't get any better than this!</p>
+            <a class="button tiny radius" href="families.html">Learn More</a>
           </div>
         </div>
       </div>
       <div class="large-4 small-12 columns cta-bg">
         <div class="cta">
-          <h5>Start the Adventure</h3>
+          <h5>Groups</h5>
           <div class="cta-interact">
-            <img src="images/cta-2.png" alt="Start the Adventure"/>
-            <p>Begin your families adventure by signing up HERE to gain access to all the episodes.</p>
-            <a class="button tiny radius" href="http://www.famplify.blogspot.com">sign up</a>
+            <i class="icon icon-group"></i>
+            <p>Starting a group not only creates a fellowship platform for your community but it offers big discounts as well!</p>
+            <a class="button tiny radius" href="churches.html">See How</a>
           </div>
         </div>
       </div>
       <div class="large-4 small-12 columns cta-bg">
         <div class="cta">
-          <h5>Feedback</h3>
+          <h5>How it works</h5>
           <div class="cta-interact">
-            <img src="images/cta-3.png" alt="Four Questions"/>
-            <p>If you were at the adventure & Ice Cream event - please fill out our short 4 question survey!</p>
-            <a class="button tiny radius" href="http://www.surveymonkey.com/s.aspx?sm=A%2bwzx4664PZFeB73nK1KBQ%3d%3d">answer</a>
+            <i class="icon icon-cogs"></i>
+            <p>A whole new approach to family Bible Study that'll create, encourage or grow unity in your family and community.</p>
+            <a class="button tiny radius show-desktop-up" data-reveal-id="whatisfamplify">Watch Video</a>
+            <a class="button tiny radius show-touch-down" href="#">Watch Video</a>
           </div>
         </div>
       </div>
     </div>
     <div class="row bottom">
       <div class="large-12 small-12 columns sign-up">
-        <p>We are just starting out, if you want to be kept in the know...</p>
-        <a class="button small radius" href="http://www.famplify.blogspot.com">Sign-up for Updates</a>
+        <p>If you would like to be notified when a new series is released:</p>
+        <a class="button small radius" href="http://famplify.wufoo.com/forms/m7x4z5/" target="_blank">Sign-up for Updates</a>
       </div>
     </div>
   </section>
@@ -164,7 +182,7 @@
                 <p>Special Pre-Screening event for the Journey Bible Series 'PILOT' episode!</p>
                 <p>Calvary Community Church<br/> 
                 12612 N. Black Canyon HWY. 85029<br/>
-                6:00pm South Sanctuary</p>
+                6:00pm Main Sanctuary</p>
                 <a class="white-btn button tiny radius" href="http://goo.gl/maps/4z4kL" alt="Driving Directions"/>Driving Directions</a>
               </div>
             </div>
@@ -182,7 +200,7 @@
           <div class="content-wrap ">
             <h5>Is YOUR church using Famplify?</h5>
             <p>As a church or home group you can offer the families in your community some AWESOME benefits! Group rates, family fellowship, a great outreach platform & MORE!</p>
-            <a class="white-btn button tiny radius" href="http://www.famplify.blogspot.com" alt="Find Out More">Find Out More</a>
+            <a class="white-btn button tiny radius" href="churches.html" alt="Find Out More">Find Out More</a>
           </div>
         </div>
       </div>
@@ -196,10 +214,10 @@
         </ul>
         <div class="tweet-box">
           <div id="twitter_update_list">
-            
+            <p>Adventure & Ice Cream Family Night is this Friday @6PM! Don't miss it! #gonnabeawesome</p>
           </div>
-          <script type=”text/javascript” src=”http://twitter.com/javascripts/blogger.js”></script>
-          <script type=”text/javascript” src=”http://twitter.com/statuses/user_timeline/michaelsidler.json?callback=twitterCallback2&count=1″></script>
+          <!--<script type=”text/javascript” src=”http://twitter.com/javascripts/blogger.js”></script>
+          <script type=”text/javascript” src=”http://twitter.com/statuses/user_timeline/michaelsidler.json?callback=twitterCallback2&count=1″></script>-->
         </div>
       </div>
     </div>
@@ -213,42 +231,26 @@
   </script>
   
   <script src="javascripts/foundation/foundation.js"></script>
-  
   <script src="javascripts/foundation/foundation.alerts.js"></script>
-  
   <script src="javascripts/foundation/foundation.clearing.js"></script>
-  
   <script src="javascripts/foundation/foundation.cookie.js"></script>
-  
   <script src="javascripts/foundation/foundation.dropdown.js"></script>
-  
   <script src="javascripts/foundation/foundation.forms.js"></script>
-  
   <script src="javascripts/foundation/foundation.interchange.js"></script>
-  
   <script src="javascripts/foundation/foundation.joyride.js"></script>
-  
   <script src="javascripts/foundation/foundation.magellan.js"></script>
-  
   <script src="javascripts/foundation/foundation.orbit.js"></script>
-  
   <script src="javascripts/foundation/foundation.placeholder.js"></script>
-  
   <script src="javascripts/foundation/foundation.reveal.js"></script>
-  
   <script src="javascripts/foundation/foundation.section.js"></script>
-  
   <script src="javascripts/foundation/foundation.tooltips.js"></script>
-  
   <script src="javascripts/foundation/foundation.topbar.js"></script>
 
   <!--PERSONAL SCRIPTS-->
-    <script src="javascripts/vendors/jquery-once.js"></script>
-    <script src="javascripts/vendors/jquery.localscroll-1.2.7-min.js"></script>
-    <script src="javascripts/cta-hover.js"></script>
-    <script src="javascripts/mobile-nav.js"></script>
-    <script src="javascripts/parallax-scroll.js"></script>
-    <script src="javascripts/scripts.js"></script>
+    <script type="text/javascript" src="javascripts/cta-hover.js"></script>
+    <script type="text/javascript" src="javascripts/mobile-nav.js"></script>
+    <script type="text/javascript" src="javascripts/parallax-scroll.js"></script>
+    <script type="text/javascript" src="javascripts/scripts.js"></script>
   
   
   <script>

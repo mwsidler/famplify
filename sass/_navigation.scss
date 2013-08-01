@@ -8,13 +8,13 @@
 ******************************************************************************/
 #navigation {position: fixed; width: 100%; z-index: 10; background: $black;
   a.logo {margin: 12px 0; width: 50%; display: block;
-    img {width: 100%; height: auto;}
+    img {width: 100%; height: auto; max-width: 190px;}
   }
-  .nav-trigger {overflow: hidden; cursor: pointer; z-index: 20; position: absolute; right: 15px; top: 16px; background: url('../images/nav-icon.png') no-repeat scroll transparent; height: 25px; width: 26px; background-size: 26px 50px;}
-  .top-bar {z-index: 10; width: 100%; position: absolute; top: 57px; right: 100%; margin: 0; margin: 0; padding: 0 20px; background: $black;
+  .nav-trigger {overflow: hidden; cursor: pointer; z-index: 20; position: absolute; right: 15px; top: 20px; background: url('../images/nav-icon.png') no-repeat scroll transparent; height: 25px; width: 26px; background-size: 26px 50px;}
+  .top-bar {z-index: 10; width: 100%; position: absolute; top: 66px; right: 100%; margin: 0; margin: 0; padding: 0 20px; background: $black;
     ul {margin: 0;}
     li {border-top: 1px solid #202020; padding: 0; margin: 0;}
-    a {color: $primary; display: block; border-top: 1px solid #3b3b3b; padding: 10px 20px; text-transform: uppercase; 
+    a {color: $primary; display: block; border-top: 1px solid #3b3b3b; padding: 10px 20px; text-transform: uppercase; text-align: center;
       &:hover{color: #dedede;}
     }
   }
@@ -27,7 +27,9 @@
   #navigation {
     -webkit-box-shadow:  0px 10px 10px rgba(0,0,0,0.2);
     box-shadow:  0px 10px 10px rgba(0,0,0,0.2);
-    a.logo {margin: 12px auto; width: 25%;}
+    a.logo {margin: 12px auto; width: 25%;
+      img {max-width: 220px;}
+    }
     .nav-trigger {top: 20px;}
     .top-bar {top: 66px;}
   }
@@ -40,18 +42,22 @@
   #navigation { height: 62px; padding-top: 10px; background: none;
     -webkit-box-shadow:  0px 0px 0px rgba(0,0,0,0);
     box-shadow:  0px 0px 0px rgba(0,0,0,0);
-    a.logo {margin: 0; width: 200px; float: left; position: relative; z-index: 1;}
-    nav.top-bar {height: 42px; background: none; position: relative; right: 0; top: 0; float: left; padding: 0; width: 600px;
+    a.logo {margin: 0; float: left; position: relative; z-index: 300;
+      img {max-width: 270px;}
+    }
+    nav.top-bar {height: 42px; background: none; position: relative; right: 0; top: 0; padding: 0; 
+      ul {margin-top: 10px; overflow: hidden;}
       ul li {float: left; margin: 0 15px; list-style-type: none; border: none; padding: 10px 0;
         //&:nth-child(1) {margin-top: 0px; margin-right: 20px;}
         &:nth-child(1) a {border-left: 1px solid #fff; padding-left: 20px; margin-left: 0;}
-        a {color: #fff; border: none; padding: 0;
+        a {color: #fff; border: none; padding: 0; 
           &:hover {color: $primary;};
         }
       }  
     }
-    .desktop-nav-bg {background: $black; height: 65px; width: 100%; position: absolute; top: -65px; z-index: 0; -webkit-box-shadow:  0px 10px 10px rgba(0,0,0,0.2); box-shadow:  0px 10px 10px rgba(0,0,0,0.2);}
+  .desktop-nav-bg {background: $black; height: 85px; width: 100%; position: absolute; top: 0; z-index: 0; -webkit-box-shadow:  0px 10px 10px rgba(0,0,0,0.2); box-shadow:  0px 10px 10px rgba(0,0,0,0.2);}
   }
+  .front .desktop-nav-bg {top: -65px;}
 }
 
 /*****************************************************************************

@@ -25,6 +25,27 @@ body{
 .button {text-transform: uppercase; line-height: 16px; padding: 5px 15px;}
 //.hidden {display: none;}
 
+
+.show-desktop-up {
+    display: none!important;
+  @media #{$desktop} {
+    display: inline-block!important;
+  }
+}
+
+.show-touch-down {
+    display: inline-block!important;
+  @media #{$desktop} {
+    display: none!important;
+  }
+}
+.show-touch-down-block {
+    display: block!important;
+  @media #{$desktop} {
+    display: none!important;
+  }
+}
+
 /*****************************************************************************
  * MOBILE - BTWEEN 0px - 767px.
 ******************************************************************************/

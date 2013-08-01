@@ -31,14 +31,14 @@ $(document).ready(function(){
         $window.scroll(function() {
           //when the window gets scrolled down to 175px, animate desktop-nav-bg into the screen.
           var scrollTop = $window.scrollTop();
-          var navbg = $('.desktop-nav-bg');
+          var navbg = $('.front .desktop-nav-bg');
           //console.log('scrollTop =' + scrollTop);
           //console.log(navbg.position().top);
-          if((scrollTop >= 50) && (navbg.position().top === -65)){
+          if((scrollTop >= 50) && (navbg.position().top === -85)){
             navbg.stop(true, false).animate({'top':'0px'}, 400);
             //console.log('animate down');
           }else if((scrollTop <= 50) && (navbg.position().top === 0)){
-            navbg.stop(true, false).animate({'top':'-65px'}, 200);
+            navbg.stop(true, false).animate({'top':'-85px'}, 200);
             //console.log('animate up');
           }
         });

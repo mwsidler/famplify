@@ -1,0 +1,54 @@
+/*****************************************************************************
+ * MOBILE - BTWEEN 0px - 767px.
+******************************************************************************/
+.churches#content,
+.families#content { 
+  .header-wrap {border-bottom: 1px solid white; 
+    .title {text-align: center; display: block; margin-top: 85px; padding-bottom: 20px; border-bottom: 1px solid #dcdad3;
+      @media #{$tablet} { 
+        margin-top: 100px; padding-bottom: 30px;    
+      }
+      @media #{$desktop} {
+        margin-top: 140px; padding-bottom: 50px;
+      }
+    }
+    .subhead {line-height: 1;}
+  }
+  .row.top {
+    border-bottom: 1px solid #dcdad3;
+  }
+  .row.bottom {
+    border-top: 1px solid white; padding: 50px 0; text-align: center;
+  }
+  .point { 
+      @media #{$tablet} { 
+        min-height: 300px;    
+        margin-bottom: 35px; 
+      }
+      @media #{$desktop} {
+        min-height: 350px;
+      }
+    .eyebrow {font-size: emCalc(18px); text-align: center; color: $dark; font-family: $helvetica-cond; margin-top: 50px;}
+    h2 {color: $primary; font-size: emCalc(30px); font-weight: $light; text-align: center; margin-top: 30px; text-align: center; 
+      padding: 0;
+      @media #{$tablet} { 
+        padding: 0 20px;   
+        font-size: emCalc(24px); 
+      }
+      @media #{$desktop} {
+        padding: 0 40px;
+      }
+    }
+    p {font-size: emCalc(16px); text-align: center; padding: 10px 0;
+      @media #{$tablet} { 
+        padding: 10px 20px;   
+        font-size: emCalc(14px); 
+      }
+      @media #{$desktop} {
+        padding: 10px 45px;
+        font-size: emCalc(13px);
+      }
+    }
+    .small {font-size: emCalc(11px); font-style: italic;}
+  }
+}
