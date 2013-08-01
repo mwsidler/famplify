@@ -11,7 +11,7 @@
 
     //VARIABLES
     var $nav = $('.top-bar');
-    var $bodyHeight = $('body').height();
+    var $bodyHeight = $(window).height();
     //var $trigger = $('.nav-trigger, .top-bar li a');
     var $window = $(window);
 
@@ -34,8 +34,8 @@
         if ($nav.hasClass('hidden')) {
           //displays the wrapper - {display: block;}, then animates out
           $nav.css('display', 'block').animate({ 'right': '0%' }, 200, function () {
-          //and on animation completion, it changes the trigger graphic
-          $('.nav-trigger').css('background-position', '0 -25px');
+            //and on animation completion, it changes the trigger graphic
+            $('.nav-trigger').css('background-position', '0 -25px');
           //finally takes off the class of hidden so that the next time it is clicked it runs the else{}
           }).removeClass('hidden');
         } else {
