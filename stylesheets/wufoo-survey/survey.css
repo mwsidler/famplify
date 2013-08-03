@@ -1,0 +1,1751 @@
+/* line 2, ../../sass/wufoo-survey/_structure.scss */
+.famplify-wuffo-form article, .famplify-wuffo-form aside, .famplify-wuffo-form figure, .famplify-wuffo-form figure img, .famplify-wuffo-form figcaption, .famplify-wuffo-form hgroup, .famplify-wuffo-form footer, .famplify-wuffo-form header, .famplify-wuffo-form nav, .famplify-wuffo-form section, .famplify-wuffo-form video, .famplify-wuffo-form object, .famplify-wuffo-form output {
+  display: block;
+}
+/* line 5, ../../sass/wufoo-survey/_structure.scss */
+.famplify-wuffo-form #container {
+  text-align: left;
+  background: #fff;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px;
+  -o-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px;
+}
+/* line 14, ../../sass/wufoo-survey/_structure.scss */
+.famplify-wuffo-form #container {
+  margin: 0 auto 10px auto;
+}
+/* line 17, ../../sass/wufoo-survey/_structure.scss */
+.famplify-wuffo-form form.wufoo {
+  margin: 20px 14px 0 14px;
+  padding: 0 0 20px 0;
+  position: relative;
+}
+/* line 22, ../../sass/wufoo-survey/_structure.scss */
+.famplify-wuffo-form #logo {
+  margin: 0;
+  padding: 0;
+  min-height: 0;
+  background-color: #dedede;
+  text-indent: -9000px;
+  text-decoration: none;
+}
+/* line 30, ../../sass/wufoo-survey/_structure.scss */
+.famplify-wuffo-form #logo a {
+  min-height: 40px;
+  height: 40px;
+  display: block;
+  background: url(../images/wflogo.png) no-repeat left top;
+  overflow: hidden;
+}
+/* line 37, ../../sass/wufoo-survey/_structure.scss */
+.famplify-wuffo-form * html #logo a {
+  _background-image: none;
+  _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/wflogo.png",  sizingMethod="crop");
+}
+/* line 41, ../../sass/wufoo-survey/_structure.scss */
+.famplify-wuffo-form img, .famplify-wuffo-form a img {
+  border: none;
+  -ms-interpolation-mode: bicubic;
+}
+/* line 45, ../../sass/wufoo-survey/_structure.scss */
+.famplify-wuffo-form .hide, .famplify-wuffo-form .cloak div, .famplify-wuffo-form .cloak span, .famplify-wuffo-form .likert.cloak tbody, .famplify-wuffo-form .likert.cloak thead {
+  display: none !important;
+}
+/* line 48, ../../sass/wufoo-survey/_structure.scss */
+.famplify-wuffo-form .likert.cloak table {
+  border: none;
+}
+
+/* line 2, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .wufoo {
+  font-family: "Lucida Grande", "Lucida Sans Unicode",  Tahoma,  sans-serif;
+  letter-spacing: .01em;
+}
+/* line 6, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .wufoo li {
+  width: 64%;
+}
+/* line 8, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .info {
+  display: inline-block;
+  clear: both;
+  margin: 0 0 5px 0;
+  padding: 0 1% 1.1em 1%;
+  border-bottom: 1px dotted #ccc;
+}
+/* line 15, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .info[class] {
+  display: block;
+}
+/* line 18, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .hideHeader .info, .famplify-wuffo-form #payment.hideHeader li.first {
+  display: none;
+}
+/* line 21, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .info h2 {
+  font-weight: normal;
+  font-size: 160%;
+  margin: 0 0 5px 0;
+  clear: left;
+}
+/* line 27, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .info div {
+  font-size: 95%;
+  line-height: 135%;
+  color: #555;
+}
+/* line 32, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 37, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form * html form ul {
+  width: 99%;
+  zoom: 1;
+}
+/* line 41, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li {
+  margin: 0;
+  padding: 6px 1% 9px 1%;
+  clear: both;
+  background-color: transparent;
+  position: relative;
+  -webkit-transition: background-color 350ms ease-out;
+  -moz-transition: background-color 350ms ease-out;
+  -o-transition: background-color 350ms ease-out;
+  transition: background-color 350ms ease-out;
+}
+/* line 52, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form ul:after, .famplify-wuffo-form form li:after, .famplify-wuffo-form form li div:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* line 59, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form * html form li {
+  height: 1%;
+  margin-bottom: -3px;
+}
+/* line 63, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form * + html form li {
+  height: 1%;
+  margin-bottom: -3px;
+}
+/* line 67, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form * html form li div {
+  display: inline-block;
+}
+/* line 70, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form * + html form ul, .famplify-wuffo-form * + html form li div {
+  display: inline-block;
+}
+/* line 73, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li div {
+  margin: 0;
+  padding: 0;
+  color: #444;
+}
+/* line 78, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li span {
+  margin: 0 .3em 0 0;
+  padding: 0;
+  float: left;
+  color: #444;
+}
+/* line 84, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li div span {
+  margin: 0;
+  display: block;
+  width: 100%;
+  float: left;
+}
+/* line 90, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form li.twoColumns div span {
+  width: 48%;
+  margin: 0 5px 0 0;
+}
+/* line 94, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form li.threeColumns div span {
+  width: 30%;
+  margin: 0 5px 0 0;
+}
+/* line 98, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form li.notStacked div span {
+  width: auto;
+  margin: 0 7px 0 0;
+}
+/* line 102, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.complex {
+  padding-bottom: 0;
+}
+/* line 105, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.complex div span {
+  width: auto;
+  margin: 0 .3em 0 0;
+  padding-bottom: 12px;
+}
+/* line 110, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.complex div span.full {
+  margin: 0;
+}
+/* line 113, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.complex div span.left, .famplify-wuffo-form form li.complex div span.right {
+  margin: 0;
+  width: 48%;
+}
+/* line 116, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.complex div span.full input, .famplify-wuffo-form form li.complex div span.full select, .famplify-wuffo-form form li.complex div span.left input, .famplify-wuffo-form form li.complex div span.right input, .famplify-wuffo-form form li.complex div span.left select, .famplify-wuffo-form form li.complex div span.right select {
+  width: 100%;
+}
+/* line 118, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .left {
+  float: left;
+}
+/* line 121, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .right {
+  float: right;
+}
+/* line 124, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .clear {
+  clear: both !important;
+}
+/* line 127, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form label span, .famplify-wuffo-form .section span, .famplify-wuffo-form p span, .famplify-wuffo-form .likert span {
+  display: inline !important;
+  float: none !important;
+}
+/* line 131, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li div label, .famplify-wuffo-form form li span label {
+  margin: 0;
+  padding-top: 3px;
+  clear: both;
+  font-size: 85%;
+  line-height: 160%;
+  color: #444;
+  display: block;
+}
+/* line 140, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form fieldset {
+  display: block;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 146, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form label.desc, .famplify-wuffo-form legend.desc {
+  font-size: 95%;
+  font-weight: bold;
+  color: #222;
+  line-height: 150%;
+  margin: 0;
+  padding: 0 0 3px 0;
+  border: none;
+  display: block;
+  white-space: normal;
+  width: 100%;
+}
+/* line 157, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form label.choice {
+  display: block;
+  cursor: pointer;
+  font-size: 100%;
+  line-height: 150%;
+  margin: -17px 0 0 23px;
+  padding: 0 0 5px 0;
+  color: #222;
+  width: 88%;
+}
+/* line 166, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .safari label.choice {
+  margin-top: -16px;
+}
+/* line 169, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form.rightLabel .desc {
+  padding-top: 2px;
+}
+/* line 172, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form span.symbol {
+  font-size: 120%;
+  line-height: 135%;
+}
+/* line 175, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li .datepicker {
+  float: left;
+  margin: .19em 5px 0 0;
+  padding: 0;
+  width: 16px;
+  height: 16px;
+  cursor: pointer !important;
+}
+/* line 183, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form span.req {
+  display: inline;
+  float: none;
+  color: red !important;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+/* line 191, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li div label var {
+  font-weight: bold;
+  font-style: normal;
+}
+/* line 195, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li div label .currently {
+  display: none;
+}
+/* line 198, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form input.text, .famplify-wuffo-form input.search, .famplify-wuffo-form input.file, .famplify-wuffo-form textarea.textarea, .famplify-wuffo-form select.select {
+  font-family: "Lucida Grande",  Tahoma,  Arial,  sans-serif;
+  font-size: 100%;
+  color: #333;
+  margin: 0;
+  padding: 2px 0;
+}
+/* line 205, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form input.text, .famplify-wuffo-form input.search, .famplify-wuffo-form textarea.textarea {
+  border-top: 1px solid #7c7c7c;
+  border-left: 1px solid #c3c3c3;
+  border-right: 1px solid #c3c3c3;
+  border-bottom: 1px solid #ddd;
+  background: white url(../images/fieldbg.gif) repeat-x top;
+}
+/* line 212, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form input.nospin::-webkit-inner-spin-button, .famplify-wuffo-form input.nospin::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* line 216, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form select.select {
+  padding: 1px 0 0 0;
+}
+/* line 219, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form input.search {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding-left: 6px;
+}
+/* line 225, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form input.checkbox, .famplify-wuffo-form input.radio {
+  display: block;
+  margin: 4px 0 0 0;
+  padding: 0;
+  width: 13px;
+  height: 13px;
+}
+/* line 232, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form input.other {
+  margin: 0 0 8px 25px;
+}
+/* line 235, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .safari select.select {
+  font-size: 120% !important;
+  margin: 0 0 1px 0;
+}
+/* line 239, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form * html select.select {
+  margin: 1px 0;
+}
+/* line 242, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form * + html select.select {
+  margin: 1px 0;
+}
+/* line 245, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .center, .famplify-wuffo-form form li span.center input.text, .famplify-wuffo-form form li span.center label, .famplify-wuffo-form form li.name span label, .famplify-wuffo-form form li.date input.text, .famplify-wuffo-form form li.date span label, .famplify-wuffo-form form li.phone input.text, .famplify-wuffo-form form li.phone span label, .famplify-wuffo-form form li.time input.text, .famplify-wuffo-form form li.time span label {
+  text-align: center;
+}
+/* line 248, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.time select.select {
+  margin-left: 5px;
+}
+/* line 251, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.price .right {
+  text-align: right;
+}
+/* line 254, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .third {
+  width: 32% !important;
+}
+/* line 257, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .half {
+  width: 48% !important;
+}
+/* line 260, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .full {
+  width: 100% !important;
+}
+/* line 263, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form input.small, .famplify-wuffo-form select.small {
+  width: 25%;
+}
+/* line 265, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form input.medium, .famplify-wuffo-form select.medium {
+  width: 50%;
+}
+/* line 267, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form input.large, .famplify-wuffo-form select.large {
+  width: 100%;
+}
+/* line 269, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .msie[class] select.ieSelectFix {
+  width: auto;
+}
+/* line 272, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .msie[class] select.ieSelectFix.small {
+  min-width: 25%;
+}
+/* line 274, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .msie[class] select.ieSelectFix.medium {
+  min-width: 50%;
+}
+/* line 276, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .msie[class] select.ieSelectFix.large {
+  width: 100%;
+}
+/* line 278, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form textarea.textarea {
+  width: 293px;
+  min-width: 100%;
+  max-width: 100%;
+}
+/* line 282, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form textarea.small {
+  height: 5.5em;
+}
+/* line 285, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form textarea.medium {
+  height: 10em;
+}
+/* line 288, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form textarea.large {
+  height: 20em;
+}
+/* line 291, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form li.file a {
+  color: #222;
+  text-decoration: none;
+}
+/* line 295, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form li.file span {
+  display: inline;
+  float: none;
+}
+/* line 299, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form li.file img {
+  display: block;
+  float: left;
+  margin: 0 0 0 -10px;
+  padding: 5px 5px 7px 5px;
+}
+/* line 305, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form li.file .file-size, .famplify-wuffo-form li.file .file-type {
+  color: #666;
+  font-size: 85%;
+  text-transform: uppercase;
+}
+/* line 310, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form li.file .file-name {
+  display: block;
+  padding: 14px 0 0 0;
+  color: blue;
+  text-decoration: underline;
+}
+/* line 316, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form li.file .file-delete {
+  color: red !important;
+  font-size: 85%;
+  text-decoration: underline;
+}
+/* line 321, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form li.file a:hover .file-name {
+  color: green !important;
+}
+/* line 324, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form li.file a:hover .file-name {
+  color: green !important;
+}
+/* line 327, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.likert {
+  margin: 0;
+  padding: 6px 1% 5px 1%;
+  width: auto !important;
+  clear: both !important;
+  float: none !important;
+}
+/* line 334, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .likert table {
+  margin: 0 0 .9em 0;
+  background: #fff;
+  width: 100%;
+  border: 1px solid #dedede;
+  border-bottom: none;
+}
+/* line 341, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .likert caption {
+  text-align: left;
+  color: #222;
+  font-size: 95%;
+  line-height: 135%;
+  padding: 5px 0 .5em 0;
+}
+/* line 348, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .likert input {
+  padding: 0;
+  margin: 2px 0;
+}
+/* line 352, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .likert tbody td label {
+  font-size: 85%;
+  display: block;
+  color: #565656;
+}
+/* line 357, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .likert thead td, .famplify-wuffo-form .likert thead th {
+  background-color: #e6e6e6;
+}
+/* line 360, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .likert td {
+  border-left: 1px solid #ccc;
+  text-align: center;
+  padding: 4px 6px;
+}
+/* line 365, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .likert thead td {
+  font-size: 85%;
+  padding: 10px 6px;
+}
+/* line 369, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .likert th, .famplify-wuffo-form .likert td {
+  border-bottom: 1px solid #dedede;
+}
+/* line 372, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .likert tbody th {
+  padding: 8px 8px;
+  text-align: left;
+}
+/* line 376, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .likert tbody th label {
+  color: #222;
+  font-size: 95%;
+  font-weight: bold;
+}
+/* line 381, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .likert tbody tr.alt td, .famplify-wuffo-form .likert tbody tr.alt th {
+  background-color: #f5f5f5;
+}
+/* line 384, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .likert tbody tr:hover td, .famplify-wuffo-form .likert tbody tr:hover th {
+  background-color: #FFFFCF;
+}
+/* line 387, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .col1 td {
+  width: 30%;
+}
+/* line 389, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .col2 td {
+  width: 25%;
+}
+/* line 391, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .col3 td {
+  width: 18%;
+}
+/* line 393, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .col4 td {
+  width: 14.5%;
+}
+/* line 395, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .col5 td {
+  width: 12%;
+}
+/* line 397, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .col6 td, .famplify-wuffo-form .col7 td {
+  width: 10%;
+}
+/* line 399, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .col8 td, .famplify-wuffo-form .col9 td, .famplify-wuffo-form .col10 td {
+  width: 6.5%;
+}
+/* line 401, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .col11 {
+  width: 6%;
+}
+/* line 403, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .hideNumbers tbody td label {
+  display: none;
+}
+/* line 406, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.buttons {
+  width: auto !important;
+  position: relative;
+  clear: both;
+  padding: 10px 1% 10px 1%;
+}
+/* line 411, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.buttons input {
+  font-size: 100%;
+  margin-right: 5px;
+}
+/* line 415, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form input.btTxt {
+  padding: 0 7px;
+  width: auto;
+  overflow: visible;
+}
+/* line 420, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .safari input.btTxt {
+  font-size: 120%;
+}
+/* line 422, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .buttons .marker {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px 10px 0 0;
+  color: #000;
+  width: auto;
+}
+/* line 430, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form button.link {
+  display: inline-block;
+  border: none;
+  background: none;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  font-size: 100%;
+}
+/* line 439, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form button.link:hover {
+  color: green;
+}
+/* line 442, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .leftLabel li, .famplify-wuffo-form .rightLabel li {
+  width: 74% !important;
+  padding-top: 9px;
+}
+/* line 446, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .leftLabel .desc, .famplify-wuffo-form .rightLabel .desc {
+  float: left;
+  width: 31%;
+  margin: 0 15px 0 0;
+}
+/* line 451, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rightLabel .desc {
+  text-align: right;
+}
+/* line 454, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .leftLabel li div, .famplify-wuffo-form .rightLabel li div {
+  float: left;
+  width: 65%;
+}
+/* line 457, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form * html .leftLabel li fieldset div, .famplify-wuffo-form * html .rightLabel li fieldset div {
+  float: right;
+}
+/* line 460, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form * + html .leftLabel li fieldset div, .famplify-wuffo-form * + html .rightLabel li fieldset div {
+  float: right;
+}
+/* line 463, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .leftLabel .buttons, .famplify-wuffo-form .rightLabel .buttons {
+  padding-left: 23%;
+}
+/* line 465, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .leftLabel .buttons div, .famplify-wuffo-form .rightLabel .buttons div {
+  float: none;
+  margin: 0 0 0 20px;
+}
+/* line 469, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .leftLabel p.instruct, .famplify-wuffo-form .rightLabel p.instruct {
+  width: 28%;
+  margin-left: 5px;
+}
+/* line 473, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .leftLabel .altInstruct .instruct, .famplify-wuffo-form .rightLabel .altInstruct .instruct {
+  margin-left: 31% !important;
+  padding-left: 15px;
+  width: 65%;
+}
+/* line 477, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .noI form li, .famplify-wuffo-form .altInstruct form li {
+  width: auto !important;
+}
+/* line 480, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .noI .leftLabel .buttons, .famplify-wuffo-form .noI .rightLabel .buttons {
+  padding-left: 31%;
+}
+/* line 482, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .noI .leftLabel .buttons div, .famplify-wuffo-form .noI .rightLabel .buttons div {
+  margin: 0 0 0 17px;
+}
+/* line 485, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.leftHalf, .famplify-wuffo-form form li.rightHalf {
+  width: 47% !important;
+}
+/* line 488, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.leftThird, .famplify-wuffo-form form li.middleThird, .famplify-wuffo-form form li.rightThird {
+  width: 30% !important;
+}
+/* line 491, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.leftFourth, .famplify-wuffo-form form li.middleFourth, .famplify-wuffo-form form li.rightFourth {
+  width: 23% !important;
+  _width: 22% !important;
+}
+/* line 495, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.leftFifth, .famplify-wuffo-form form li.middleFifth, .famplify-wuffo-form form li.rightFifth {
+  width: 18% !important;
+  _width: 17% !important;
+}
+/* line 499, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.middleThird {
+  clear: none !important;
+  float: left;
+  margin-left: 2% !important;
+}
+/* line 504, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.leftFourth, .famplify-wuffo-form form li.middleFourth, .famplify-wuffo-form form li.leftFifth, .famplify-wuffo-form form li.middleFifth {
+  clear: none !important;
+  float: left;
+}
+/* line 508, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.rightHalf, .famplify-wuffo-form form li.rightThird, .famplify-wuffo-form form li.rightFourth, .famplify-wuffo-form form li.rightFifth {
+  clear: none !important;
+  float: right;
+}
+/* line 512, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form li.leftHalf .small, .famplify-wuffo-form li.rightHalf .small, .famplify-wuffo-form li.leftHalf .medium, .famplify-wuffo-form li.rightHalf .medium, .famplify-wuffo-form li.leftThird .small, .famplify-wuffo-form li.middleThird .small, .famplify-wuffo-form li.rightThird .small, .famplify-wuffo-form li.leftThird .medium, .famplify-wuffo-form li.middleThird .medium, .famplify-wuffo-form li.rightThird .medium, .famplify-wuffo-form li.leftFourth .medium, .famplify-wuffo-form li.middleFourth .medium, .famplify-wuffo-form li.rightFourth .medium, .famplify-wuffo-form li.leftFourth .small, .famplify-wuffo-form li.middleFourth .small, .famplify-wuffo-form li.rightFourth .small, .famplify-wuffo-form li.leftFifth .medium, .famplify-wuffo-form li.middleFifth .medium, .famplify-wuffo-form li.rightFifth .medium, .famplify-wuffo-form li.leftFifth .small, .famplify-wuffo-form li.middleFifth .small, .famplify-wuffo-form li.rightFifth .small {
+  width: 100% !important;
+}
+/* line 515, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.leftHalf, .famplify-wuffo-form form li.leftThird, .famplify-wuffo-form form li.leftFourth, .famplify-wuffo-form form li.leftFifth {
+  clear: left !important;
+  float: left;
+}
+/* line 519, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form * html form li.middleFourth {
+  margin-left: 1% !important;
+}
+/* line 522, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form * html form li.middleFifth {
+  margin-left: 1% !important;
+}
+/* line 525, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.focused {
+  background-color: #fff7c0;
+}
+/* line 528, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form .instruct {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 45%;
+  margin: 0 0 0 8px;
+  padding: 8px 10px 10px 10px;
+  border: 1px solid #e6e6e6;
+  background: #f5f5f5;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 105%;
+  -webkit-transition: opacity 350ms ease-out;
+  -moz-transition: opacity 350ms ease-out;
+  -o-transition: opacity 350ms ease-out;
+  transition: opacity 350ms ease-out;
+}
+/* line 546, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form .instruct small {
+  line-height: 120%;
+  font-size: 80%;
+  color: #444;
+}
+/* line 551, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.focused .instruct, .famplify-wuffo-form form li:hover .instruct {
+  left: 100%;
+  visibility: visible;
+  opacity: 1;
+}
+/* line 556, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .altInstruct .instruct, .famplify-wuffo-form li.leftHalf .instruct, .famplify-wuffo-form li.rightHalf .instruct, .famplify-wuffo-form li.leftThird .instruct, .famplify-wuffo-form li.middleThird .instruct, .famplify-wuffo-form li.rightThird .instruct, .famplify-wuffo-form li.leftFourth .instruct, .famplify-wuffo-form li.middleFourth .instruct, .famplify-wuffo-form li.rightFourth .instruct, .famplify-wuffo-form li.leftFifth .instruct, .famplify-wuffo-form li.middleFifth .instruct, .famplify-wuffo-form li.rightFifth .instruct, .famplify-wuffo-form .iphone .instruct {
+  visibility: visible;
+  position: static;
+  margin: 0;
+  padding: 6px 0 0 0;
+  width: 100%;
+  clear: left;
+  background: none !important;
+  border: none !important;
+  font-style: italic;
+  opacity: 1;
+}
+/* line 568, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .altInstruct p.complex, .famplify-wuffo-form li.leftHalf p.complex, .famplify-wuffo-form li.rightHalf p.complex, .famplify-wuffo-form li.leftThird p.complex, .famplify-wuffo-form li.middleThird p.complex, .famplify-wuffo-form li.rightThird p.complex, .famplify-wuffo-form .iphone p.complex {
+  padding: 0 0 9px 0;
+}
+/* line 571, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .hideSeconds .seconds, .famplify-wuffo-form .hideAMPM .ampm, .famplify-wuffo-form .hideAddr2 .addr2, .famplify-wuffo-form .hideSecondary #previousPageButton, .famplify-wuffo-form .hideCents .radix, .famplify-wuffo-form .hideCents .cents, .famplify-wuffo-form .hideState .state {
+  display: none;
+}
+/* line 574, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.section {
+  clear: both;
+  margin: 0;
+  padding: 7px 0 0 0;
+  width: auto !important;
+  position: static;
+}
+/* line 581, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.section h3 {
+  font-weight: normal;
+  font-size: 110%;
+  line-height: 135%;
+  margin: 0 0 3px 0;
+  width: auto;
+  padding: 12px 1% 0 1%;
+  border-top: 1px dotted #ccc;
+}
+/* line 590, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.first {
+  padding: 0;
+}
+/* line 593, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.first h3 {
+  padding: 8px 1% 0 1%;
+  border-top: none !important;
+}
+/* line 597, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.section div {
+  display: block;
+  width: auto;
+  float: none;
+  font-size: 85%;
+  line-height: 160%;
+  margin: 0 0 1em 0;
+  padding: 0 1% 0 1%;
+}
+/* line 605, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.section.scrollText {
+  border: 1px solid #dedede;
+  height: 150px;
+  overflow: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 3px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 0 3px;
+  -o-box-shadow: rgba(0, 0, 0, 0.15) 0 0 3px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 0 3px;
+}
+/* line 616, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.section.scrollText h3 {
+  border: none;
+  padding-top: 8px;
+}
+/* line 620, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.captcha {
+  width: auto !important;
+  clear: both;
+  border-top: 1px dotted #ccc;
+  margin-top: 5px;
+  padding: 1.1em 1% 9px 1%;
+  width: auto !important;
+  position: static;
+}
+/* line 629, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.captcha label.desc {
+  width: auto !important;
+  margin-bottom: 4px;
+  float: none;
+}
+/* line 634, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form * + html #recaptcha_area, .famplify-wuffo-form * + html #recaptcha_table {
+  min-width: 450px !important;
+}
+/* line 637, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form * html #recaptcha_area, .famplify-wuffo-form * html #recaptcha_table {
+  width: 450px !important;
+}
+/* line 640, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form #recaptcha_widget_div table {
+  background: #fff;
+}
+/* line 643, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.captcha .noscript iframe {
+  border: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+/* line 649, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.captcha .noscript label.desc {
+  display: block !important;
+}
+/* line 652, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.captcha .noscript textarea {
+  margin-left: 12px;
+}
+/* line 655, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form iframe[src="about:blank"] {
+  display: none;
+}
+/* line 658, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.paging-context {
+  clear: both;
+  border-bottom: 1px dotted #ccc;
+  margin: 0 0 7px 0;
+  padding: 5px 1% 10px 1%;
+  width: auto !important;
+  position: static;
+}
+/* line 666, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .paging-context table {
+  width: 100%;
+}
+/* line 668, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .pgStyle1 td {
+  text-align: left;
+  vertical-align: middle;
+}
+/* line 672, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .pgStyle1 td.c {
+  width: 22px;
+}
+/* line 675, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .pgStyle1 td.t {
+  padding: 0 1%;
+}
+/* line 677, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .pgStyle1 var {
+  display: block;
+  float: left;
+  background: none;
+  border: 1px solid #CCC;
+  color: #000;
+  width: 20px;
+  height: 20px;
+  line-height: 19px;
+  text-align: center;
+  font-size: 85%;
+  font-style: normal;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 2px;
+  -o-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 1px 2px;
+}
+/* line 697, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .pgStyle1 .done var {
+  background: #ccc;
+}
+/* line 700, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .pgStyle1 .selected var {
+  background: #FFF7C0;
+  color: #000;
+  border: 1px solid #e6dead;
+  font-weight: bold;
+}
+/* line 706, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .pgStyle1 b {
+  font-size: 85%;
+  font-weight: normal;
+  color: #000;
+}
+/* line 711, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .pgStyle1 .selected b {
+  font-weight: bold;
+}
+/* line 714, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .circle6 td, .famplify-wuffo-form .circle7 td {
+  vertical-align: top;
+  text-align: center;
+}
+/* line 718, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .nopagelabel td.t {
+  display: none;
+}
+/* line 721, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .nopagelabel .pgStyle1 var, .famplify-wuffo-form .circle6 var, .famplify-wuffo-form .circle7 var {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 90%;
+  margin: 0 auto 7px auto;
+  float: none;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+}
+/* line 732, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .nopagelabel .pgStyle1 var {
+  margin-bottom: 0;
+}
+/* line 735, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .circle6 b, .famplify-wuffo-form .circle7 b {
+  padding: 0;
+}
+/* line 738, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .circle2 td {
+  width: 50%;
+}
+/* line 740, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .circle3 td {
+  width: 33%;
+}
+/* line 742, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .circle4 td {
+  width: 25%;
+}
+/* line 744, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .circle5 td {
+  width: 20%;
+}
+/* line 746, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .circle6 td {
+  width: 16.6%;
+}
+/* line 748, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .circle7 td {
+  width: 14.2%;
+}
+/* line 750, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .pgStyle2 td {
+  vertical-align: middle;
+  height: 25px;
+  padding: 2px;
+  border: 1px solid #CCC;
+  position: relative;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px;
+  -o-box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px;
+}
+/* line 764, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .pgStyle2 var {
+  display: block;
+  height: 26px;
+  float: left;
+  background: #FFF7C0;
+  color: #000;
+  font-style: normal;
+  text-align: right;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1px 0 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 1px 0 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.15) 1px 0 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 1px 0 0;
+}
+/* line 780, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .pgStyle2 var b {
+  display: block;
+  float: right;
+  font-size: 100%;
+  padding: 3px 10px 3px 3px;
+  line-height: 19px;
+}
+/* line 787, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .pgStyle2 em {
+  font-size: 85%;
+  font-style: normal;
+  display: inline-block;
+  margin: 0 0 0 9px;
+  padding: 4px 0;
+  line-height: 18px;
+}
+/* line 795, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .pgStyle2 var em {
+  padding: 4px 5px 3px 0;
+}
+/* line 798, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .page1 .pgStyle2 var {
+  padding-left: 7px;
+  text-align: left;
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+/* line 807, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .page1 .pgStyle2 b {
+  float: none;
+  padding-right: 0;
+}
+/* line 811, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .hideMarkers .marker, .famplify-wuffo-form .nopagelabel .pgStyle1 b, .famplify-wuffo-form .nopagelabel .pgStyle2 em {
+  display: none !important;
+}
+/* line 814, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form #errorLi {
+  width: 99%;
+  margin: 15px auto 15px auto;
+  background: #fff !important;
+  border: 1px solid red;
+  text-align: center;
+  padding: 1em 0 1em 0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+/* line 825, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form #errorMsgLbl {
+  margin: 0 0 5px 0;
+  padding: 0;
+  font-size: 125%;
+  color: #DF0000 !important;
+}
+/* line 831, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form #errorMsg {
+  margin: 0 0 2px 0;
+  color: #000 !important;
+  font-size: 100%;
+}
+/* line 835, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form #errorMsg b {
+  padding: 2px 8px;
+  background-color: #FFDFDF !important;
+  color: red !important;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 843, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.error {
+  display: block !important;
+  background-color: #FFDFDF !important;
+  margin-bottom: 3px !important;
+}
+/* line 848, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li label.error, .famplify-wuffo-form form li input.error {
+  color: #DF0000 !important;
+  font-weight: bold !important;
+}
+/* line 852, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li input.error {
+  background: #fff !important;
+  border: 2px solid #DF0000 !important;
+}
+/* line 856, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.error label, .famplify-wuffo-form form li.error span.symbol {
+  color: #000 !important;
+}
+/* line 859, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.error .desc {
+  color: #DF0000 !important;
+}
+/* line 862, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form p.error {
+  display: none;
+  margin: 0 !important;
+  padding: 7px 0 0 0 !important;
+  line-height: 10px !important;
+  font-weight: bold;
+  font-size: 11px;
+  color: #DF0000 !important;
+  clear: both;
+}
+/* line 872, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.error p.error {
+  display: block;
+}
+/* line 875, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form form li.complex p.error {
+  padding: 0 0 9px 0 !important;
+}
+/* line 878, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl h1, .famplify-wuffo-form .rtl form * {
+  direction: rtl;
+  text-align: right;
+}
+/* line 882, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl li span {
+  float: right;
+}
+/* line 885, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .right {
+  float: left;
+}
+/* line 888, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl #logo a {
+  background-position: right top;
+}
+/* line 891, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl label.choice {
+  margin: -17px 23px 0 0;
+}
+/* line 894, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .leftLabel .desc, .famplify-wuffo-form .rtl .rightLabel .desc {
+  float: right;
+  margin: 0 0 0 15px;
+}
+/* line 898, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .leftLabel li div, .famplify-wuffo-form .rtl .rightLabel li div {
+  float: right;
+}
+/* line 901, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .leftLabel .desc {
+  text-align: left;
+}
+/* line 904, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl li.focused .instruct, .famplify-wuffo-form .rtl li:hover .instruct {
+  left: auto;
+  right: 100%;
+}
+/* line 907, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .leftLabel p.instruct, .famplify-wuffo-form .rtl .rightLabel p.instruct {
+  margin-right: 5px;
+}
+/* line 910, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .leftLabel .altInstruct .instruct, .famplify-wuffo-form .rtl .rightLabel .altInstruct .instruct {
+  margin-right: 31% !important;
+  padding-right: 15px;
+}
+/* line 914, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .leftLabel .buttons, .famplify-wuffo-form .rtl .rightLabel .buttons {
+  padding-right: 23%;
+}
+/* line 916, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .leftLabel .buttons div, .famplify-wuffo-form .rtl .rightLabel .buttons div {
+  float: none;
+  margin: 0 20px 0 0;
+}
+/* line 920, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .noI .rtl .leftLabel .buttons, .famplify-wuffo-form .noI .rtl .rightLabel .buttons {
+  padding-right: 31%;
+}
+/* line 922, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .noI .rtl .leftLabel .buttons div, .famplify-wuffo-form .noI .rtl .rightLabel .buttons div {
+  margin: 0 17px 0 0;
+}
+/* line 925, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .likert td label {
+  text-align: center;
+}
+/* line 928, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .likert caption, .famplify-wuffo-form .rtl .likert tbody th {
+  text-align: right;
+}
+/* line 931, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .likert td {
+  text-align: center;
+  border-left: none;
+  border-right: 1px solid #ccc;
+}
+/* line 936, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .pgStyle1 var {
+  text-align: center;
+}
+/* line 939, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .pgStyle1 td {
+  text-align: right;
+}
+/* line 942, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .pgStyle2 var {
+  float: right;
+}
+/* line 945, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .pgStyle2 var b {
+  float: left;
+  padding: 3px 3px 3px 10px;
+}
+/* line 949, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .pgStyle2 em {
+  margin: 0 9px 0 0;
+}
+/* line 952, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .pgStyle2 var em {
+  padding: 4px 0 3px 5px;
+}
+/* line 955, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .page1 .pgStyle2 var {
+  padding-right: 7px;
+}
+/* line 958, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .page1 .pgStyle2 b {
+  padding-left: 0;
+}
+/* line 961, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl .buttons .marker {
+  right: auto;
+  left: 0;
+  padding: 15px 0 0 10px;
+}
+/* line 966, ../../sass/wufoo-survey/_form.scss */
+.famplify-wuffo-form .rtl #errorLi * {
+  text-align: center;
+}
+
+/* line 1, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form {
+  /* ----- Logo ----- */
+  /* ----- Backgrounds ----- */
+  /* ----- Borders ----- */
+  /* ----- Typography ----- */
+  /* Custom Fonts Break Dropdown Selection in IE */
+  /* ----- Button Styles ----- */
+  /* ----- Highlight Styles ----- */
+  /* ----- Confirmation ----- */
+  /* ----- Pagination ----- */
+  /* Likert Backgrounds */
+  /* Likert Borders */
+  /* Likert Typography */
+  /* Likert Hover */
+  /* ----- Running Total ----- */
+  /* ----- Report Styles ----- */
+  /* ----- Number Widget ----- */
+  /* ----- Chart Widget Border and Background Colors ----- */
+  /* ----- Chart Widget Typography Colors ----- */
+  /* ----- Chart Widget Hover Colors ----- */
+  /* ----- Payment Summary ----- */
+  /* Drop Shadows */
+  /* - - - Local Fonts - - - */
+  /* - - - Responsive - - - */
+  /* - - - Custom Theme - - - */
+}
+/* line 4, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form #logo a {
+  background-image: url("../images/wflogo.png");
+  min-height: 0;
+  height: 40px;
+}
+/* line 9, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form * html #logo a {
+  /* IE6 png Support */
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/wflogo.png", sizingMethod="crop");
+}
+/* line 15, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form html {
+  background-image: none;
+  background-color: #FFFFFF;
+}
+/* line 18, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form #logo {
+  background-image: none;
+  background-color: #DEDEDE;
+}
+/* line 21, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form #container, .famplify-wuffo-form html.embed {
+  background-color: #FFFFFF;
+}
+/* line 24, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .safari .wufoo input.file {
+  background: none;
+  border: none;
+}
+/* line 29, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo li.focused {
+  background-color: #FFF7C0;
+}
+/* line 32, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo .instruct {
+  background-color: #F5F5F5;
+}
+/* line 37, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form #container {
+  border: 1px solid #CCCCCC;
+}
+/* line 40, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo .info, .famplify-wuffo-form .wufoo .paging-context {
+  border-bottom: 1px dotted #CCCCCC;
+}
+/* line 43, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo .section h3, .famplify-wuffo-form .wufoo .captcha, .famplify-wuffo-form #payment .paging-context {
+  border-top: 1px dotted #CCCCCC;
+}
+/* line 49, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo .instruct {
+  border: 1px solid #E6E6E6;
+}
+/* line 52, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .fixed .info {
+  border-bottom: none;
+}
+/* line 55, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo li.section.scrollText {
+  border-color: #dedede;
+}
+/* line 60, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo .info h2 {
+  font-size: 160%;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+}
+/* line 67, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo .info div {
+  font-size: 95%;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  color: #444444;
+}
+/* line 74, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo .section h3 {
+  font-size: 110%;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+}
+/* line 81, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo .section div {
+  font-size: 85%;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  color: #444444;
+}
+/* line 89, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo label.desc, .famplify-wuffo-form .wufoo legend.desc {
+  font-size: 95%;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  color: #444444;
+}
+/* line 97, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo label.choice {
+  font-size: 100%;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  color: #444444;
+}
+/* line 104, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo input.text, .famplify-wuffo-form .wufoo textarea.textarea, .famplify-wuffo-form .wufoo input.file, .famplify-wuffo-form .wufoo select.select {
+  font-style: normal;
+  font-weight: normal;
+  color: #333333;
+  font-size: 100%;
+}
+/* line 111, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo input.text, .famplify-wuffo-form .wufoo textarea.textarea, .famplify-wuffo-form .wufoo input.file {
+  font-family: inherit;
+}
+/* line 116, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo li div, .famplify-wuffo-form .wufoo li span, .famplify-wuffo-form .wufoo li div label, .famplify-wuffo-form .wufoo li span label {
+  font-family: inherit;
+  color: #444444;
+}
+/* line 120, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .safari .wufoo input.file {
+  /* Webkit */
+  font-size: 100%;
+  font-family: inherit;
+  color: #444444;
+}
+/* line 125, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo .instruct small {
+  font-size: 85%;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  color: #444444;
+}
+/* line 135, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .altInstruct small, .famplify-wuffo-form li.leftHalf small, .famplify-wuffo-form li.rightHalf small,
+.famplify-wuffo-form li.leftThird small, .famplify-wuffo-form li.middleThird small, .famplify-wuffo-form li.rightThird small,
+.famplify-wuffo-form .iphone small {
+  color: #444444 !important;
+}
+/* line 149, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo li.focused label.desc, .famplify-wuffo-form .wufoo li.focused legend.desc,
+.famplify-wuffo-form .wufoo li.focused div, .famplify-wuffo-form .wufoo li.focused span, .famplify-wuffo-form .wufoo li.focused div label, .famplify-wuffo-form .wufoo li.focused span label,
+.famplify-wuffo-form .safari .wufoo li.focused input.file {
+  color: #000000;
+}
+/* line 155, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .confirm h2 {
+  font-family: inherit;
+  color: #444444;
+}
+/* line 159, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form a.powertiny b, .famplify-wuffo-form a.powertiny em {
+  color: #1a1a1a !important;
+}
+/* line 162, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .embed a.powertiny b, .famplify-wuffo-form .embed a.powertiny em {
+  color: #1a1a1a !important;
+}
+/* line 168, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .pgStyle1 var, .famplify-wuffo-form .pgStyle2 var, .famplify-wuffo-form .pgStyle2 em, .famplify-wuffo-form .page1 .pgStyle2 var, .famplify-wuffo-form .pgStyle1 b, .famplify-wuffo-form .wufoo .buttons .marker {
+  font-family: inherit;
+  color: #444444;
+}
+/* line 172, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .pgStyle1 var, .famplify-wuffo-form .pgStyle2 td {
+  border: 1px solid #cccccc;
+}
+/* line 175, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .pgStyle1 .done var {
+  background: #cccccc;
+}
+/* line 179, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .pgStyle1 .selected var, .famplify-wuffo-form .pgStyle2 var, .famplify-wuffo-form .pgStyle2 var em {
+  background: #FFF7C0;
+  color: #000000;
+}
+/* line 183, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .pgStyle1 .selected var {
+  border: 1px solid #e6dead;
+}
+/* line 190, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .likert table {
+  background-color: #FFFFFF;
+}
+/* line 193, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .likert thead td, .famplify-wuffo-form .likert thead th {
+  background-color: #e6e6e6;
+}
+/* line 196, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .likert tbody tr.alt td, .famplify-wuffo-form .likert tbody tr.alt th {
+  background-color: #f5f5f5;
+}
+/* line 202, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .likert table, .famplify-wuffo-form .likert th, .famplify-wuffo-form .likert td {
+  border-color: #dedede;
+}
+/* line 205, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .likert td {
+  border-left: 1px solid #cccccc;
+}
+/* line 211, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .likert caption, .famplify-wuffo-form .likert thead td, .famplify-wuffo-form .likert tbody th label {
+  color: #444444;
+  font-family: inherit;
+}
+/* line 215, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .likert tbody td label {
+  color: #575757;
+  font-family: inherit;
+}
+/* line 219, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .likert caption, .famplify-wuffo-form .likert tbody th label {
+  font-size: 95%;
+}
+/* line 225, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .likert tbody tr:hover td, .famplify-wuffo-form .likert tbody tr:hover th, .famplify-wuffo-form .likert tbody tr:hover label {
+  background-color: #FFF7C0;
+  color: #000000;
+}
+/* line 229, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .likert tbody tr:hover td {
+  border-left: 1px solid #ccc69a;
+}
+/* line 235, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo #lola {
+  background: #e6e6e6;
+}
+/* line 238, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo #lola tbody td {
+  border-bottom: 1px solid #cccccc;
+}
+/* line 241, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo #lola {
+  font-family: inherit;
+  color: #444444;
+}
+/* line 245, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo #lola tfoot th {
+  color: #696969;
+}
+/* line 251, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo .wfo_graph h3 {
+  font-size: 95%;
+  font-family: inherit;
+  color: #444444;
+}
+/* line 256, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wfo_txt, .famplify-wuffo-form .wfo_graph h4 {
+  color: #444444;
+}
+/* line 259, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo .footer h4 {
+  color: #000000;
+}
+/* line 262, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wufoo .footer span {
+  color: #444444;
+}
+/* line 268, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wfo_number {
+  background-color: #f5f5f5;
+  border-color: #dedede;
+}
+/* line 272, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .wfo_number strong, .famplify-wuffo-form .wfo_number em {
+  color: #000000;
+}
+/* line 278, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form #widget, .famplify-wuffo-form #widget body {
+  background: #FFFFFF;
+}
+/* line 281, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .fcNav a.show {
+  background-color: #FFFFFF;
+  border-color: #cccccc;
+}
+/* line 285, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .fc table {
+  border-left: 1px solid #dedede;
+}
+/* line 288, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .fc thead th, .famplify-wuffo-form .fc .more th {
+  background-color: #dedede !important;
+  border-right: 1px solid #cccccc !important;
+}
+/* line 292, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .fc tbody td, .famplify-wuffo-form .fc tbody th, .famplify-wuffo-form .fc tfoot th, .famplify-wuffo-form .fc tfoot td {
+  background-color: #FFFFFF;
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #dedede;
+}
+/* line 297, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .fc tbody tr.alt td, .famplify-wuffo-form .fc tbody tr.alt th, .famplify-wuffo-form .fc tbody td.alt {
+  background-color: #f5f5f5;
+}
+/* line 303, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .fc caption, .famplify-wuffo-form .fcNav, .famplify-wuffo-form .fcNav a {
+  color: #444444;
+}
+/* line 310, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .fc tfoot,
+.famplify-wuffo-form .fc thead th,
+.famplify-wuffo-form .fc tbody th div,
+.famplify-wuffo-form .fc tbody td.count, .famplify-wuffo-form .fc .cards tbody td a, .famplify-wuffo-form .fc td.percent var,
+.famplify-wuffo-form .fc .timestamp span {
+  color: #000000;
+}
+/* line 313, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .fc .indent .count {
+  color: #4b4b4b;
+}
+/* line 316, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .fc .cards tbody td a span {
+  color: #7d7d7d;
+}
+/* line 323, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .fc tbody tr:hover td, .famplify-wuffo-form .fc tbody tr:hover th,
+.famplify-wuffo-form .fc tfoot tr:hover td, .famplify-wuffo-form .fc tfoot tr:hover th {
+  background-color: #FFF7C0;
+}
+/* line 327, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .fc tbody tr:hover th div, .famplify-wuffo-form .fc tbody tr:hover td, .famplify-wuffo-form .fc tbody tr:hover var,
+.famplify-wuffo-form .fc tfoot tr:hover th div, .famplify-wuffo-form .fc tfoot tr:hover td, .famplify-wuffo-form .fc tfoot tr:hover var {
+  color: #000000;
+}
+/* line 338, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .invoice thead th,
+.famplify-wuffo-form .invoice tbody th, .famplify-wuffo-form .invoice tbody td,
+.famplify-wuffo-form .invoice tfoot th,
+.famplify-wuffo-form .invoice .total,
+.famplify-wuffo-form .invoice tfoot .last th, .famplify-wuffo-form .invoice tfoot .last td,
+.famplify-wuffo-form .invoice tfoot th, .famplify-wuffo-form .invoice tfoot td {
+  border-color: #dedede;
+}
+/* line 341, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .invoice thead th, .famplify-wuffo-form .wufoo .checkNotice {
+  background: #f5f5f5;
+}
+/* line 344, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .invoice th, .famplify-wuffo-form .invoice td {
+  color: #000000;
+}
+/* line 347, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form #ppSection, .famplify-wuffo-form #ccSection {
+  border-bottom: 1px dotted #CCCCCC;
+}
+/* line 350, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form #shipSection, .famplify-wuffo-form #invoiceSection {
+  border-top: 1px dotted #CCCCCC;
+}
+@media only screen and (max-width: 480px) {
+  /* line 361, ../../sass/wufoo-survey/_theme.scss */
+  .famplify-wuffo-form html {
+    background-color: #FFFFFF;
+  }
+  /* line 364, ../../sass/wufoo-survey/_theme.scss */
+  .famplify-wuffo-form a.powertiny b, .famplify-wuffo-form a.powertin em {
+    color: #1a1a1a !important;
+  }
+}
+/* line 370, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form #container {
+  max-width: 960px;
+  border: none;
+  background: none;
+}
+/* line 371, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form #wufoo-header {
+  margin-top: 0px;
+}
+/* line 372, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .rightLabel .desc {
+  text-align: left;
+}
+/* line 373, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .famplify-survey li {
+  width: 100% !important;
+}
+/* line 374, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .famplify-survey li label {
+  width: 100% !important;
+  text-align: left;
+}
+/* line 375, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .famplify-survey li div {
+  width: 100% !important;
+}
+/* line 376, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .famplify-survey li textarea {
+  width: 100% !important;
+}
+/* line 378, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form .leftLabel p.instruct, .famplify-wuffo-form .rightLabel p.instruct,
+.famplify-wuffo-form .leftLabel .desc, .famplify-wuffo-form .rightLabel .desc {
+  width: 100%;
+}
+/* line 379, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form form li.focused .instruct, .famplify-wuffo-form form li:hover .instruct {
+  clear: left;
+  float: left;
+  display: block;
+  position: relative;
+  left: 0;
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
+}
+/* line 380, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form fieldset legend {
+  background: transparent;
+}
+/* line 381, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form form.wufoo {
+  margin-top: 0;
+}
+/* line 382, ../../sass/wufoo-survey/_theme.scss */
+.famplify-wuffo-form #wufoo-header h2 {
+  padding-top: 100px;
+}
+@media only screen and (max-width: 480px) {
+  /* line 382, ../../sass/wufoo-survey/_theme.scss */
+  .famplify-wuffo-form #wufoo-header h2 {
+    padding-top: 80px;
+  }
+}

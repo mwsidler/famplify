@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Famplify</title>
+    <title>Famplify Sign Up</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
+    <link rel="stylesheet" href="stylesheets/wufoo-survey/survey.css"/>
+    <script src="javascripts/vendor/wufoo.js"></script>
     <script type="text/javascript" src="javascripts/vendor/jquery-1.10.1.min.js"></script>
     <script type="text/javascript" src="javascripts/vendor/custom.modernizr.js"></script>    
     <script type="text/javascript" src="javascripts/vendor/jquery.localscroll-1.2.7-min.js"></script>
@@ -21,7 +22,7 @@
     <![endif]-->
 
 </head>
-<body class="front page-home">
+<body id="public">
 
 <!--  <div class="row">
     <div class="display-meter small-12 large-12 columns">
@@ -48,125 +49,49 @@
     </div>
     <div class="desktop-nav-bg"></div> 
   </section>
-  <!-- Section #1 -->
-  <section id="header" data-speed="5" data-type="background">
-    <div class="row">
-      <div class="content large-12 small-12 columns">
-        <div id="welcome-message">
-          <div class="message-wrap">
-            <img src="images/welcome-img.png" alt="Welcome to Famplify" title="Welcome to Famplify" />
-            <div class="cta-videos">
-              <a class="white-btn button radius" href="survey.html">Take the survey</a>
-              <a class="white-btn button radius" href="signup.html">Stay Up-To-Date</a>
+  <!-- beginning of wufoo form -->
+  <section class="famplify-wuffo-form">
+    <div id="container" class="ltr">
+
+      <form id="form2" name="form2" class="wufoo rightLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://famplify.wufoo.com/forms/m7x4z5/#public">
+        <header id="wufoo-header" class="info">
+          <h2>Famplify Updates</h2>
+          <div>If you would like us to keep you updated with only the major changes and releases we put out, please enter your name and email below.</div>
+        </header>
+        <ul>
+          <li id="foli2" class="notranslate">
+            <label class="desc" id="title2" for="Field2">Name</label>
+            <span>
+              <input id="Field2" name="Field2" type="text" class="field text fn" value="" size="8" tabindex="1" />
+              <label for="Field2">First</label>
+            </span>
+            <span>
+              <input id="Field3" name="Field3" type="text" class="field text ln" value="" size="14" tabindex="2" />
+              <label for="Field3">Last</label>
+            </span>
+          </li>
+          <li id="foli10" class="notranslate">
+            <label class="desc" id="title10" for="Field10">Email</label>
+            <div>
+              <input id="Field10" name="Field10" type="email" spellcheck="false" class="field text large" value="your@email.com" maxlength="255" tabindex="3" /> 
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
+            <p class="instruct" id="instruct10"><small>We will only use this email to keep you up-to-date with new releases.  It will not be used for spam or sold to any other third party.</small></p>
+          </li> 
+          <li class="buttons ">
+            <div>
+              <input id="saveForm" name="saveForm" class="white-btn button radius" type="submit" value="Submit"/></div>
+          </li>
+          <li class="hide">
+            <label for="comment">Do Not Fill This Out</label>
+            <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+            <input type="hidden" id="idstamp" name="idstamp" value="f3XJNB28pqb7pxqz/xBGRIv0N7HPc1ISaZVXKrvYo9g=" />
+          </li>
+        </ul>
+      </form> 
+
+    </div><!--container-->
   </section>
-  <!-- Section #2 -->
-  <a id="series"></a>
-  <section id="content" data-speed="3" data-type="background">
-    <div class="row">
-      <div class="large-12 small-12 columns">
-        <h1 class="front-title">Current Series</h1>
-        <!-- Orbit Container -->
-        <div class="series-slider orbit-container">
-          <ul data-orbit="" class="orbit-slides-container">
-            <li>
-              <div class="series row">
-                <div class="large-10 small-centered small-10 columns">
-                  <div class="row">
-                    <div class="large-8 columns">
-                      <h2>Adventure & Ice Cream Family Night!</h2>
-                      <div class="flex-video widescreen vimeo">
-                        <iframe src="http://player.vimeo.com/video/67766624?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                      </div>
-                    </div>
-                    <div class="large-4 columns">
-                      <h5>Trailer: Family Night</h5>
-                      <p>You and your family are invited to come and hang out with us on Friday, August 2nd for a night of fun, fellowship, adventure, ice cream and family.</p>
-                      <a class="white-btn button tiny radius" href="http://goo.gl/maps/4z4kL" alt="Driving Directions"/>Get Directions</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="series row">
-                <div class="large-10 small-centered small-10 columns">
-                  <div class="row">
-                    <div class="large-8 columns">
-                      <h2>Know Your King!</h2>
-                      <div class="flex-video widescreen vimeo">
-                        <iframe src="http://player.vimeo.com/video/66093663?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                      </div>
-                    </div>
-                    <div class="large-4 columns">
-                      <h5>Pilot Episode: Adam & Eve</h5>
-                      <p>Does God create EACH of us for a specific purpose? If so, what’s YOUR purpose? Find out in the series premiere...</p>
-                      <!--<a class="button small radius" href="http://www.famplify.blogspot.com">View Series</a>-->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Section #3 -->
-  <section id="call-out">
-    <div class="row">
-      <div class="large-12 small-12 columns sign-up">
-        <h3>"IT'S KINDA LIKE VBS... BUT FOR THE ENTIRE FAMILY!"</h3>
-        <p>Adventures that will have your kids reminding YOU about "family-night"!</p>
-        <!--<a class="button small radius" href="http://www.famplify.blogspot.com">CHECK OUT THE ADVENTURES</a>-->
-      </div>
-    </div>
-  </section>
-  <section id="home-cta">  
-    <div class="row top">
-      <div class="large-4 small-12 columns cta-bg">
-        <div class="cta">
-          <h5>Family</h5>
-          <div class="cta-interact">
-            <i class="icon icon-home"></i>
-            <p>Adventure, Ice Cream and God's Word... family Bible study doesn't get any better than this!</p>
-            <a class="button tiny radius" href="families.html">Learn More</a>
-          </div>
-        </div>
-      </div>
-      <div class="large-4 small-12 columns cta-bg">
-        <div class="cta">
-          <h5>Groups</h5>
-          <div class="cta-interact">
-            <i class="icon icon-group"></i>
-            <p>Starting a group not only creates a fellowship platform for your community but it offers big discounts as well!</p>
-            <a class="button tiny radius" href="churches.html">See How</a>
-          </div>
-        </div>
-      </div>
-      <div class="large-4 small-12 columns cta-bg">
-        <div class="cta">
-          <h5>How it works</h5>
-          <div class="cta-interact">
-            <i class="icon icon-cogs"></i>
-            <p>A whole new approach to family Bible Study that'll create, encourage or grow unity in your family and community.</p>
-            <a class="button tiny radius show-desktop-up" data-reveal-id="whatisfamplify">Watch Video</a>
-            <a class="button tiny radius show-touch-down" href="http://vimeo.com/71525957">Watch Video</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row bottom">
-      <div class="large-12 small-12 columns sign-up">
-        <p>If you would like to be notified when a new series is released:</p>
-        <a class="button small radius" href="signup.html">Sign-up for Updates</a>
-      </div>
-    </div>
-  </section>
+  <!-- End Wufoo form -->
   <!-- Section #4 -->
   <section id="footer">
     <div class="row">

@@ -14,7 +14,7 @@
   .top-bar {z-index: 1; width: 100%; position: absolute; top: 0; right: 100%; margin: 0; margin: 0; padding: 65px 20px 0; background: $black;
     ul {margin: 0;}
     li {border-top: 1px solid #202020; padding: 0; margin: 0;}
-    a {color: $primary; display: block; border-top: 1px solid #3b3b3b; padding: 10px 20px; text-transform: uppercase; text-align: center;
+    a {cursor: pointer; color: $primary; display: block; border-top: 1px solid #3b3b3b; padding: 10px 20px; text-transform: uppercase; text-align: center;
       &:hover{color: #dedede;}
     }
   }
@@ -57,8 +57,9 @@
     }
   .desktop-nav-bg {background: $black; height: 85px; width: 100%; position: absolute; top: 0; z-index: 0; -webkit-box-shadow:  0px 10px 10px rgba(0,0,0,0.2); box-shadow:  0px 10px 10px rgba(0,0,0,0.2);}
   }
-  .front .desktop-nav-bg {top: -65px;}
+
 }
+.front #navigation .desktop-nav-bg {top: -85px;}
 
 /*****************************************************************************
  * LARGE DESKTOP - 1440px wide and up. 

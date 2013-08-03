@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Famplify</title>
+    <title>Famplify Groups</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script type="text/javascript" src="javascripts/vendor/jquery-1.10.1.min.js"></script>
     <script type="text/javascript" src="javascripts/vendor/custom.modernizr.js"></script>    
@@ -15,6 +15,10 @@
 
     <!--FONT AWESOME INCLUDES-->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    
+    <!--[if lt IE 10]>
+    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
 </head>
 <body class="not-front page-churches">
@@ -35,9 +39,9 @@
             <li><a href="index.html#series">Adventures</a></li>
             <li><a href="families.html">Families</a></li>
             <li><a href="churches.html">Churches/Groups</a></li>
-            <li><a href="http://famplify.wufoo.com/forms/z7x4m1/" target="_blank">Feedback</a></li>
-            <li><a class="show-for-medium-up" data-reveal-id="whatisfamplify">What is Famplify?</a></li> 
-            <li><a class="show-for-medium-down" href="#" target="_blank">What is Famplify?</a></li> 
+            <li><a href="survey.html">Feedback</a></li>
+            <li><a class="show-desktop-up" data-reveal-id="whatisfamplify">What is Famplify?</a></li> 
+            <li><a class="show-touch-down-block" href="http://vimeo.com/71525957">What is Famplify?</a></li> 
           </ul>
         </nav>
       </div>
@@ -67,17 +71,15 @@
           <div class="point large-4 small-12 columns">
             <div class="eyebrow">- It's Affordable! -</div>
             <h2>Buying in bulk has always had its benefits!</h2>
-            <p>One Family Credit is $12.00<br/>
-              One Group Credit is $120.00<br/>
-              A Group = 15 Family Credits<br/> 
-              <strong>That is a 60 dollar savings!</strong></p>
-            <p class="small">* A group 15 families large means 5 FAMILIES are getting it for FREE!!!</p>
+            <p>One Family = $12.00<br/>(1 Season/12 Episodes) </p>
+            <p>One Group (15 Families) = $120.00<br/>(1 Season/12 Episodes)</p>
+            <p><strong>That is a 60 dollar savings!</strong><br/><span class="small">* 5 Families FREE / A savings of 33% or $60 per season!)</p>
           </div>
         </div>
         <div class="row bottom">
           <div class="large-12 small-12 columns sign-up">
             <p>If you would like to be notified when we go live:</p>
-            <a class="button small radius" href="http://famplify.wufoo.com/forms/m7x4z5/" target="_blank">Please Sign-up for Updates</a>
+            <a class="button small radius" href="signup.html">Please Sign-up for Updates</a>
           </div>
         </div>
       </div>
@@ -188,10 +190,24 @@
 
   <div id="whatisfamplify" class="reveal-modal large">
     <div class="flex-video widescreen vimeo">
-      <iframe src="http://player.vimeo.com/video/44075068?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+      <iframe src="http://player.vimeo.com/video/71525957?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
     </div>
       <a class="close-reveal-modal">&#215;</a>
   </div>
+
+
+<!--GOOGLE ANALYTICS CODE -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42894468-1', 'famplify.com');
+  ga('send', 'pageview');
+
+</script>
+<!-- CLOSE GOOGLE ANALYTICS CODE -->
 
 </body>
 </html>
